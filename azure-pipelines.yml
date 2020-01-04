@@ -21,7 +21,6 @@ steps:
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/staging-careercircle-echo-api-api.template.json'
     csmParametersFileLink: 'https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/staging-careercircle-parameters.json'
-    overrideParameters: '-LinkedTemplatesBaseUrl https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/ -PolicyXMLBaseUrl https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/'
     deploymentMode: 'Validation'
 
 - task: PublishBuildArtifacts@1
