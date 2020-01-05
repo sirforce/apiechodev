@@ -4192,15 +4192,7 @@
         "request": {
           "description": "Request Payload",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n    \"company\" : \"Allegis Group\",\n    \"startDate\" : \"9/1/2018\",\n    \"endDate\" : null,\n    \"jobTitle\": \"Senior Software Engineer\",\n    \"jobDescription\" : \"Lead team of developers\",\n    \"rate\" : 60.25,\n    \"compensationTypeGuid\" : \"f3061c0f-41ee-4bb1-b655-328f22653ef3\",\n    \"isCurrent\": true\n}",
-              "schemaId": "1568048068575",
-              "typeName": ""
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
