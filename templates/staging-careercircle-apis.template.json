@@ -5997,15 +5997,7 @@
           {
             "statusCode": 200,
             "description": "The response contains detail pertaining to a course.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n  \"title\": \"Statistical Programming in R\",\n  \"duration\" : \"05:22:00\",\n  \"description\": \"The Statistical Programming course teaches students how to load R and R Studio onto their PC. Students will then learn basic scripting commands and will be introduced to a vast library of functions to perform various statistical analyses.\",\n  \"courseLevel\": {\n    \"name\": \"Begginer\",\n    \"courseLevelGuid\": \"814a47e6-727f-43ea-89e5-7e867a69acd5\"\n  },\n  \"vendorGuid\": \"f0f56ae9-ad7a-4dc9-b425-7b1d866b02e3\",\n  \"vendorLogoUrl\": \"Vendor/bd5476b3-938b-4479-bc0d-cda912648b3f/woz.jpg\"\n}",
-                "schemaId": "1568048068575",
-                "typeName": "Course - Detail"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -6102,15 +6094,7 @@
           {
             "statusCode": 200,
             "description": "",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n  {\n    \"title\": \"Statistical Programming in R\",\n    \"courseGuid\": \"5cab816a-5f4b-4e7b-8898-bcbfc5dba4ba\",\n    \"lessonCount\" : \"27\",\n    \"courseLevel\": {\n      \"name\": \"Begginer\",\n      \"courseLevelGuid\": \"814a47e6-727f-43ea-89e5-7e867a69acd5\"\n    },\n    \"vendorGuid\": \"f0f56ae9-ad7a-4dc9-b425-7b1d866b02e3\",\n    \"vendorLogoUrl\": \"Vendor/bd5476b3-938b-4479-bc0d-cda912648b3f/woz.jpg\"\n  },\n  {\n    \"title\": \"Fundamentals of Object Oriented Programming\",\n    \"courseGuid\": \"5cab816a-5f4b-4e7b-8898-bcbfc5dba4ba\",\n    \"lessonCount\" : \"27\",\n    \"courseLevel\": {\n      \"name\": \"Begginer\",\n      \"courseLevelGuid\": \"814a47e6-727f-43ea-89e5-7e867a69acd5\"\n    },\n    \"vendorGuid\": \"f0f56ae9-ad7a-4dc9-b425-7b1d866b02e3\",\n    \"vendorLogoUrl\": \"Vendor/bd5476b3-938b-4479-bc0d-cda912648b3f/woz.jpg\"\n  },\n  {\n    \"title\": \"Advanced C#\",\n    \"courseGuid\": \"40a22762-69bd-4d8e-bea2-61ef1f3de1bf\",\n    \"lessonCount\" : \"27\",\n    \"courseLevel\": {\n      \"name\": \"Advanced\",\n      \"courseLevelGuid\": \"c68bf702-6007-48bb-9ff3-8fcb3c668e67\"\n    },\n    \"vendorGuid\": \"f0f56ae9-ad7a-4dc9-b425-7b1d866b02e3\",\n    \"vendorLogoUrl\": \"Vendor/bd5476b3-938b-4479-bc0d-cda912648b3f/woz.jpg\"\n  }\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Course - List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -6427,15 +6411,7 @@
           {
             "statusCode": 200,
             "description": "This response contains details pertaining to a course.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n  \"title\": \"Statistical Programming in R\",\n  \"descripition\": \"The Statistical Programming course teaches students how to load R and R Studio onto their PC. Students will then learn basic scripting commands and will be introduced to a vast library of functions to perform various statistical analyses.\",\n  \"courseLevel\": {\n    \"name\": \"Begginer\",\n    \"courseLevelGuid\": \"814a47e6-727f-43ea-89e5-7e867a69acd5\"\n  },\n  \"vendorGuid\": \"f0f56ae9-ad7a-4dc9-b425-7b1d866b02e3\",\n  \"vendorLogoUrl\": \"Vendor/bd5476b3-938b-4479-bc0d-cda912648b3f/woz.jpg\"\n}",
-                "schemaId": "1568048068575",
-                "typeName": "Course Level"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -8976,15 +8952,7 @@
           {
             "statusCode": 200,
             "description": "",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n  {\n    \"title\": \"Statistical Programming in R\",\n    \"courseGuid\": \"5cab816a-5f4b-4e7b-8898-bcbfc5dba4ba\",\n    \"lessonCount\" : \"27\",\n    \"courseLevel\": {\n      \"name\": \"Begginer\",\n      \"courseLevelGuid\": \"814a47e6-727f-43ea-89e5-7e867a69acd5\"\n    },\n    \"vendorGuid\": \"f0f56ae9-ad7a-4dc9-b425-7b1d866b02e3\",\n    \"vendorLogoUrl\": \"Vendor/bd5476b3-938b-4479-bc0d-cda912648b3f/woz.jpg\"\n  },\n  {\n    \"title\": \"Fundamentals of Object Oriented Programming\",\n    \"courseGuid\": \"5cab816a-5f4b-4e7b-8898-bcbfc5dba4ba\",\n    \"lessonCount\" : \"27\",\n    \"courseLevel\": {\n      \"name\": \"Begginer\",\n      \"courseLevelGuid\": \"814a47e6-727f-43ea-89e5-7e867a69acd5\"\n    },\n    \"vendorGuid\": \"f0f56ae9-ad7a-4dc9-b425-7b1d866b02e3\",\n    \"vendorLogoUrl\": \"Vendor/bd5476b3-938b-4479-bc0d-cda912648b3f/woz.jpg\"\n  },\n  {\n    \"title\": \"Advanced C#\",\n    \"courseGuid\": \"40a22762-69bd-4d8e-bea2-61ef1f3de1bf\",\n    \"lessonCount\" : \"27\",\n    \"courseLevel\": {\n      \"name\": \"Advanced\",\n      \"courseLevelGuid\": \"c68bf702-6007-48bb-9ff3-8fcb3c668e67\"\n    },\n    \"vendorGuid\": \"f0f56ae9-ad7a-4dc9-b425-7b1d866b02e3\",\n    \"vendorLogoUrl\": \"Vendor/bd5476b3-938b-4479-bc0d-cda912648b3f/woz.jpg\"\n  }\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Course - List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
