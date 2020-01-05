@@ -131,7 +131,7 @@
       "properties": {
         "mode": "Incremental",
         "templateLink": {
-          "uri": "[concat(parameters('LinkedTemplatesBaseUrl'), '/staging-careercircle-api2-staging--A3-api.template.json')]",
+          "uri": "[concat(parameters('LinkedTemplatesBaseUrl'), '/staging-careercircle-api2-staging-api.template.json')]",
           "contentVersion": "1.0.0.0"
         },
         "parameters": {

@@ -12,6 +12,46 @@
   "resources": [
     {
       "properties": {
+        "displayName": "Companies"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/companies')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Compensation Types"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/compensation-types')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Contacts"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/contacts')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Countries"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/countries')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Courses"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/courses')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
         "displayName": "Education Levels"
       },
       "name": "[concat(parameters('ApimServiceName'), '/education-levels')]",
@@ -55,6 +95,14 @@
         "displayName": "Jobs"
       },
       "name": "[concat(parameters('ApimServiceName'), '/jobs')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Skills"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/skills')]",
       "type": "Microsoft.ApiManagement/service/tags",
       "apiVersion": "2019-01-01"
     },

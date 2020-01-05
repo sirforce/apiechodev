@@ -12,14 +12,8 @@
 -->
 <policies>
 	<inbound>
-		<validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="Unauthorized. Access token is missing or invalid." require-expiration-time="false" require-signed-tokens="false">
-			<openid-config url="https://stagingcareercircle.auth0.com/.well-known/openid-configuration" />
-			<audiences>
-				<audience>https://staging-careercircle.azure-api.net</audience>
-			</audiences>
-		</validate-jwt>
 		<base />
-		<rewrite-uri template="/v2/courses/refer" />
+		<rewrite-uri template="/v2/jobs/browse-location" />
 		<set-header name="Content-Type" exists-action="append">
 			<value>application/json</value>
 		</set-header>
