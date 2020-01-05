@@ -6729,15 +6729,7 @@
           {
             "statusCode": 200,
             "description": "Jobs that have been marked as favorites by the subscriber.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    {\n        \"courseGuid\": \"09e43cda-aa89-4dd4-a27b-810631db9e6c\",\n        \"title\": \"System Administration\",\n        \"duration\": null,\n        \"description\": \"The course will cover System Administration basics from a security-orientated point of view. This course will include information on installing and configuring network components to support organizational security. Additional topics include threats, vulnerabilities, secure protocols, and secure system design.ObjectivesUnderstand basics of system administrationBe able to install and configure network components to support organizational securityIdentify threatsIdentify vulnerabilitiesImplement secure protocolsUnderstand secure systems design\",\n        \"courseLevel\": 0,\n        \"numLessons\": 0,\n        \"vendorName\": \"WozU\",\n        \"numEnrollments\": 0,\n        \"newFlag\": 0,\n        \"vendorGuid\": \"00000000-0000-0000-0000-000000000001\",\n        \"vendorLogoUrl\": null\n    },\n    {\n        \"courseGuid\": \"0fd35e91-432c-4f21-b674-1c3cd19ca066\",\n        \"title\": \"Programming Foundations - Python\",\n        \"duration\": null,\n        \"description\": \"The Programming Foundations in Python course is an introduction to the basic programming principles of Python. Students will develop a foundational knowledge of programming concepts, algorithms, design patterns, and theory. Language-specific concepts will be covered, outlining the nuances associated with Python.ObjectivesLearn about common programming conceptsLearn the basics of iteration, decision making, and code organizationLearn the basics of Object-Oriented ProgrammingLearn how to handle errors and recover from failure statesLearn how to debug applications\",\n        \"courseLevel\": 0,\n        \"numLessons\": 0,\n        \"vendorName\": \"WozU\",\n        \"numEnrollments\": 0,\n        \"newFlag\": 0,\n        \"vendorGuid\": \"00000000-0000-0000-0000-000000000001\",\n        \"vendorLogoUrl\": null\n    }\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Job Favorite List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
