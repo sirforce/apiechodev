@@ -3928,15 +3928,7 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n\n    \"c\",\n    \"java\",\n    \"react\"\n]",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           }
         ],
         "displayName": "Blog - Tag Slugs",
