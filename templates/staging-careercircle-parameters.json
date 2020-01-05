@@ -6,10 +6,10 @@
       "value": "dev-careercircle"
     },
     "LinkedTemplatesBaseUrl": {
-      "value": "https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/"
+      "value": "https://raw.githubusercontent.com/sirforce/apiechodev/master/templates"
     },
     "PolicyXMLBaseUrl": {
-      "value": "https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/policies/"
+      "value": "https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/policies"
     }
   },
   "resources": []
