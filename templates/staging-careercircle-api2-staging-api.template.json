@@ -5790,15 +5790,7 @@
           {
             "statusCode": 200,
             "description": "A list of countries.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n\t{\n\t\t\"countryGuid\" : \"C8EB1D63-0D4B-47B4-AFDD-138AD6D9D6AA\",\n\t\t\"displayName\" : \"Hong Kong\",\n\t\t\"officialName\" : \"China, Hong Kong Special Administrative Region\",\n\t\t\"sequence\" : 101,\n\t\t\"code2\" : \"HK\",\n\t\t\"code3\" : \"HKG\"\n\t},\n\t{\n\t\t\"countryGuid\" : \"4B8C86C5-563B-4393-918A-681A6B534A18\",\n\t\t\"displayName\" : \"Congo\",\n\t\t\"officialName\" : \"Congo - Brazzaville\",\n\t\t\"sequence\" : 53,\n\t\t\"code2\" : \"CG\",\n\t\t\"code3\" : \"COG\"\n\t}\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Country List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -5862,15 +5854,7 @@
         "description": "Updates a specific country.",
         "request": {
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"countryGuid\" : \"C8EB1D63-0D4B-47B4-AFDD-138AD6D9D6AA\",\n\t\"displayName\" : \"Hong Kong\",\n\t\"officialName\" : \"China, Hong Kong Special Administrative Region\",\n\t\"sequence\" : 101,\n\t\"code2\" : \"HK\",\n\t\"code3\" : \"HKG\",\n\t\"modifyDate\" : \"2018-10-16T13:38:44.9602231\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Country"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
