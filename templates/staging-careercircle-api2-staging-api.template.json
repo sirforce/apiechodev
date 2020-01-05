@@ -8968,15 +8968,7 @@
         "description": "Retrieves a specific experience level.",
         "request": {
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"displayName\" : \"Entry Level\",\n\t\"code\" : \"EL\"\n}\n",
-              "schemaId": "1568048068575",
-              "typeName": "Experience Level"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -9040,15 +9032,7 @@
         "request": {
           "description": "Creates an industry.",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"industryName\" : \"Management\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Industry"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
