@@ -4343,15 +4343,7 @@
           {
             "statusCode": 200,
             "description": "The response represents the recommended courses a subscriber should enroll in based on the their skills.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    {\n        \"topicGuid\": \"4e56fd9c-3fdb-43a3-a746-92cbae656511\",\n        \"name\": \"Dev Data Science\",\n        \"description\": \"Data science is an extremely popular field with a broad range of applications. ... Get an introduction to basic data science tools, exploration and visualization techniques and find out what's involved in becoming a data scientist. Multiple course programs exist to get you on a path to a job as a data scientist.\",\n        \"sortOrder\": 0\n    },\n    {\n        \"topicGuid\": \"00000000-0000-0000-0000-000000000000\",\n        \"name\": \"Dev Cyber Security\",\n        \"description\": \"Introduction to Cyber Security was designed to help learners develop a deeper understanding of modern information and system protection technology and methods. The learning outcome is simple: We hope learners will develop a lifelong passion and appreciation for cyber security, which we are certain will help in future endeavors. Students, developers, managers, engineers, and even private citizens will benefit from this learning experience. Special customized interviews with industry partners were included to help connect the cyber security concepts to live business experiences.\",\n        \"sortOrder\": 1\n    },\n    {\n        \"topicGuid\": \"00000000-0000-0000-0000-000000000000\",\n        \"name\": \"Dev Full Stack\",\n        \"description\": \"The term MEAN Stack refers to a collection of JavaScript based technologies used to develop web applications. MEAN is an acronym which stands for MongoDB, ExpressJS, Angular and Node.js. The MEAN Stack enables you to use JavaScript on both, front- and back-end. There are four main building blocks of every full-stack MEAN application:\",\n        \"sortOrder\": 2\n    }\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Course CareerPath Recommendations"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
