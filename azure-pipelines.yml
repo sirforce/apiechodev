@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'CareerCircleWeb'
     location: 'South Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/staging-careercircle-api2-staging-api.template.json'
+    csmFileLink: 'https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/staging-careercircle-master.template.json'
     csmParametersFileLink: 'https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/staging-careercircle-parameters.json'
     deploymentMode: 'Validation'
 
