@@ -1,0 +1,21 @@
+<policies>
+	<inbound>
+		<base />
+		<json-to-xml apply="always" consider-accept-header="false" />
+		<set-header name="subscription-id" exists-action="append">
+			<value>@(context.Subscription.Id)</value>
+		</set-header>
+		<set-header name="user-email" exists-action="append">
+			<value>@(context.User.Email)</value>
+		</set-header>
+	</inbound>
+	<backend>
+		<base />
+	</backend>
+	<outbound>
+		<base />
+	</outbound>
+	<on-error>
+		<base />
+	</on-error>
+</policies>

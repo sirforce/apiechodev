@@ -100,9 +100,49 @@
     },
     {
       "properties": {
+        "displayName": "Offers"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/offers')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "profile"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/profile')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Role-Recruiter"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/role-recruiter')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Security Clearances"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/security-clearances')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
         "displayName": "Skills"
       },
       "name": "[concat(parameters('ApimServiceName'), '/skills')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "States"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/states')]",
       "type": "Microsoft.ApiManagement/service/tags",
       "apiVersion": "2019-01-01"
     },
@@ -119,6 +159,14 @@
         "displayName": "Subscribers"
       },
       "name": "[concat(parameters('ApimServiceName'), '/subscribers')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Traitify"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/traitify')]",
       "type": "Microsoft.ApiManagement/service/tags",
       "apiVersion": "2019-01-01"
     }

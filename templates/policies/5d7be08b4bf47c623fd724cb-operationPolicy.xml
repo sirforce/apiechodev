@@ -1,4 +1,3 @@
-
 <policies>
 	<inbound>
 		<validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="APIM Unauthorized. Access token is missing or invalid." require-expiration-time="false" require-signed-tokens="false">

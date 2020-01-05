@@ -110,6 +110,27 @@
       "properties": {
         "mode": "Incremental",
         "templateLink": {
+          "uri": "[concat(parameters('LinkedTemplatesBaseUrl'), '/staging-careercircle-loggers.template.json')]",
+          "contentVersion": "1.0.0.0"
+        },
+        "parameters": {
+          "ApimServiceName": {
+            "value": "[parameters('ApimServiceName')]"
+          },
+          "PolicyXMLBaseUrl": {
+            "value": "[parameters('PolicyXMLBaseUrl')]"
+          }
+        }
+      },
+      "name": "loggersTemplate",
+      "type": "Microsoft.Resources/deployments",
+      "apiVersion": "2018-01-01",
+      "dependsOn": []
+    },
+    {
+      "properties": {
+        "mode": "Incremental",
+        "templateLink": {
           "uri": "[concat(parameters('LinkedTemplatesBaseUrl'), '/staging-careercircle-authorizationServers.template.json')]",
           "contentVersion": "1.0.0.0"
         },
@@ -131,7 +152,7 @@
       "properties": {
         "mode": "Incremental",
         "templateLink": {
-          "uri": "[concat(parameters('LinkedTemplatesBaseUrl'), '/staging-careercircle-api2-staging-api.template.json')]",
+          "uri": "[concat(parameters('LinkedTemplatesBaseUrl'), '/staging-careercircle-apis.template.json')]",
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
@@ -151,6 +172,7 @@
         "[resourceId('Microsoft.Resources/deployments', 'versionSetTemplate')]",
         "[resourceId('Microsoft.Resources/deployments', 'productsTemplate')]",
         "[resourceId('Microsoft.Resources/deployments', 'tagTemplate')]",
+        "[resourceId('Microsoft.Resources/deployments', 'loggersTemplate')]",
         "[resourceId('Microsoft.Resources/deployments', 'authorizationServersTemplate')]"
       ]
     }

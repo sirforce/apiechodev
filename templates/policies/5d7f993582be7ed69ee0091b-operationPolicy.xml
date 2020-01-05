@@ -1,6 +1,6 @@
 <policies>
 	<inbound>
-		<validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="Unauthorized. Access token is missing or invalid." require-expiration-time="false" require-signed-tokens="false">
+		<validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="APIM Unauthorized. Access token is missing or invalid." require-expiration-time="false" require-signed-tokens="false">
 			<openid-config url="https://login-staging.careercircle.com/.well-known/openid-configuration" />
 			<audiences>
 				<audience>https://staging-careercircle.azure-api.net</audience>
