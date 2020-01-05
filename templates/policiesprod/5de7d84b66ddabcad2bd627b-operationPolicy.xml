@@ -1,0 +1,19 @@
+<policies>
+	<inbound>
+		<validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="APIM Unauthorized. Access token is missing or invalid." />
+		<base />
+		<rewrite-uri template="/v2/butter/cache/clear/{key}" />
+		<set-header name="Content-Type" exists-action="append">
+			<value>application/json</value>
+		</set-header>
+	</inbound>
+	<backend>
+		<base />
+	</backend>
+	<outbound>
+		<base />
+	</outbound>
+	<on-error>
+		<base />
+	</on-error>
+</policies>

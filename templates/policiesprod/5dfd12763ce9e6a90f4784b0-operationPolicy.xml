@@ -1,0 +1,18 @@
+<policies>
+	<inbound>
+		<base />
+		<set-header name="Content-Type" exists-action="append">
+			<value>application/json</value>
+		</set-header>
+		<rewrite-uri template="/v2/courses/jobs/related" />
+	</inbound>
+	<backend>
+		<base />
+	</backend>
+	<outbound>
+		<base />
+	</outbound>
+	<on-error>
+		<base />
+	</on-error>
+</policies>

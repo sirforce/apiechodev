@@ -1,0 +1,35 @@
+<policies>
+	<inbound>
+		<base />
+		<cors allow-credentials="true">
+			<allowed-origins>
+				<origin>http://localhost:3000</origin>
+			</allowed-origins>
+			<allowed-methods>
+				<method>GET</method>
+				<method>POST</method>
+				<method>PUT</method>
+				<method>DELETE</method>
+			</allowed-methods>
+			<allowed-headers>
+				<header>content-type</header>
+				<header>accept</header>
+			</allowed-headers>
+		</cors>
+	</inbound>
+	<backend>
+		<base />
+	</backend>
+	<outbound>
+		<base />
+		<set-header name="Access-Control-Allow-Origin" exists-action="override">
+			<value>@(context.Request.Headers.GetValueOrDefault("Origin",""))</value>
+		</set-header>
+		<set-header name="Access-Control-Allow-Credentials" exists-action="override">
+			<value>true</value>
+		</set-header>
+	</outbound>
+	<on-error>
+		<base />
+	</on-error>
+</policies>
