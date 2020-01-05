@@ -5205,15 +5205,7 @@
           {
             "statusCode": 200,
             "description": "A list of compensation types.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n\t{\n\t\t\"compensationTypeGuid\" : \"83EAD36C-6671-4256-9DD8-14DE593FDA85\",\n\t\t\"compensationTypeName\" : \"Annual\"\n\t},\n\t{\n\t\t\"compensationTypeGuid\" : \"F3061C0F-41EE-4BB1-B655-328F22653EF3\",\n\t\t\"compensationTypeName\" : \"Monthly\"\n\t}\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Compensation Type List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
