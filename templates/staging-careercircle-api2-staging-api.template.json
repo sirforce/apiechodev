@@ -10611,15 +10611,7 @@
           {
             "statusCode": 200,
             "description": "The total number of active jobs.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[{\n  \"jobPostingGuid\": \"4e6e4e04-e1a5-449d-937b-dd6bc640a8c9\",\n  \"title\": \"Top Secret Cleared Technicians for DoD Client!\",\n  \"city\": \"Fairfax\",\n  \"province\": \"VA\",\n  \"companyLogoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/Aerotek\",\n  \"companyName\": \"Aerotek\"\n}, {\n  \"jobPostingGuid\": \"e912e93a-2be8-4dbd-b343-1a5f53062b2b\",\n  \"title\": \"TS/SCI Cleared Network Field Technician\",\n  \"city\": \"Fairfax\",\n  \"province\": \"VA\",\n  \"companyLogoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/Aerotek\",\n  \"companyName\": \"Aerotek\"\n}, {\n  \"jobPostingGuid\": \"fabe11c6-23a9-4093-ad13-f0810c28a25a\",\n  \"title\": \"Network Technician STARTS ASAP\",\n  \"city\": \"Manassas\",\n  \"province\": \"VA\",\n  \"companyLogoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/Aerotek\",\n  \"companyName\": \"Aerotek\"\n}, {\n  \"jobPostingGuid\": \"f9e805b8-08aa-4322-a153-c8610df1a6a0\",\n  \"title\": \"Cleared Network Technician\",\n  \"city\": \"Fairfax\",\n  \"province\": \"VA\",\n  \"companyLogoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/Aerotek\",\n  \"companyName\": \"Aerotek\"\n}, {\n  \"jobPostingGuid\": \"d8b7e1ac-8007-4cd5-8db1-08d55a117dab\",\n  \"title\": \"Sr. Network Engineer\",\n  \"city\": \"Annapolis\",\n  \"province\": \"MD\",\n  \"companyLogoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/TEKsystems\",\n  \"companyName\": \"TEKsystems\"\n}]",
-                "schemaId": "1568048068575",
-                "typeName": "Job CareerPath Recommendations"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -10698,15 +10690,7 @@
           {
             "statusCode": 200,
             "description": "Returns active jobs that conform to the query parameters.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n{\n    \"title\": \"Network Defense\",\n    \"duration\": null,\n    \"description\": \"The Network Defense course will give students an overview of the various hardware and software tools available to defend a network against attack. Students will use various tools to assess the security posture of an organization and understand the possible impact of various vulnerabilities. Additionally, this course will cover the concepts of penetration testing and vulnerabilities testing.ObjectivesProvide an overview of the various hardware and software tools available to defend a network against attackKnow tools to assess the security posture of an organizationUnderstand the possible impact of various vulnerabilitiesBe able to perform basic penetration testingPerform basic vulnerabilities testing\",\n    \"courseLevel\": 0,\n    \"numLessons\": 0,\n    \"vendorName\": \"WozU\",\n    \"numEnrollments\": 16,\n    \"newFlag\": 0,\n    \"vendorGuid\": \"00000000-0000-0000-0000-000000000001\",\n    \"vendorLogoUrl\": null\n},{\n    \"title\": \"Network Defense\",\n    \"duration\": null,\n    \"description\": \"The Network Defense course will give students an overview of the various hardware and software tools available to defend a network against attack. Students will use various tools to assess the security posture of an organization and understand the possible impact of various vulnerabilities. Additionally, this course will cover the concepts of penetration testing and vulnerabilities testing.ObjectivesProvide an overview of the various hardware and software tools available to defend a network against attackKnow tools to assess the security posture of an organizationUnderstand the possible impact of various vulnerabilitiesBe able to perform basic penetration testingPerform basic vulnerabilities testing\",\n    \"courseLevel\": 0,\n    \"numLessons\": 0,\n    \"vendorName\": \"WozU\",\n    \"numEnrollments\": 16,\n    \"newFlag\": 0,\n    \"vendorGuid\": \"00000000-0000-0000-0000-000000000001\",\n    \"vendorLogoUrl\": null\n},{\n    \"title\": \"Network Defense\",\n    \"duration\": null,\n    \"description\": \"The Network Defense course will give students an overview of the various hardware and software tools available to defend a network against attack. Students will use various tools to assess the security posture of an organization and understand the possible impact of various vulnerabilities. Additionally, this course will cover the concepts of penetration testing and vulnerabilities testing.ObjectivesProvide an overview of the various hardware and software tools available to defend a network against attackKnow tools to assess the security posture of an organizationUnderstand the possible impact of various vulnerabilitiesBe able to perform basic penetration testingPerform basic vulnerabilities testing\",\n    \"courseLevel\": 0,\n    \"numLessons\": 0,\n    \"vendorName\": \"WozU\",\n    \"numEnrollments\": 16,\n    \"newFlag\": 0,\n    \"vendorGuid\": \"00000000-0000-0000-0000-000000000001\",\n    \"vendorLogoUrl\": null\n}\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Course Related Jobs"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
