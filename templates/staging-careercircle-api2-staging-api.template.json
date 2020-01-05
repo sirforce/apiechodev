@@ -8460,15 +8460,7 @@
           {
             "statusCode": 200,
             "description": "A list of employment types.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n\t{\n\t\t\"employmentTypeGuid\" : \"83EAD36C-6671-4256-9DD8-14DE593FDA85\",\n\t\t\"employmentTypeName\" : \"Full-Time\"\n\t},\n\t{\n\t\t\"employmentTypeGuid\" : \"A3607E54-F5F7-4873-B4E8-6E7AEC9198CD\",\n\t\t\"employmentTypeName\" : \"Part-Time\"\n\t}\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Employment Type List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -8506,7 +8498,7 @@
       "dependsOn": [
         "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7be29a76934c9613284c31')]"
       ]
-    },
+    },		
     {
       "properties": {
         "displayName": "Employment Types"
@@ -8912,15 +8904,7 @@
           {
             "statusCode": 200,
             "description": "",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n\t{\n\t\t\"experienceLevelGuid\" : \"83EAD36C-6671-4256-9DD8-14DE593FDA85\",\n\t\t\"displayName\" : \"Intern\",\n\t\t\"code\" : \"IN\"\n\t},\n\t{\n\t\t\"experienceLevelGuid\" : \"F105B4E4-643B-4BEB-BDF3-9595508C5620\",\n\t\t\"displayName\" : \"Entry Level\",\n\t\t\"code\" : \"EL\"\n\t}\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Experience Level List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,

@@ -9914,15 +9914,7 @@
         "description": "Updates a specific job.",
         "request": {
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"status\": \"draft\",\n\t\"jobPostingGuid\": \"a1ec6538-5ccb-4cb2-9af5-aa34db854fc8\",\n\t\"postingDateUTC\": \"2019-07-02T17:15:02.0151343Z\",\n\t\"postingExpirationDateUTC\": \"2020-09-03T00:49:56.0057777Z\",\n\t\"applicationDeadlineUTC\": \"0001-01-01T00:00:00Z\",\n\t\"recruiterGuid\": \"643bb54d-9a8f-4a04-bda4-2deb69c7fef2\",\n\t\"companyGuid\": \"7e1d8ab0-3440-4773-88b6-2722da9f2fed\",\n\t\"industryGuid\": \"7EAB3D86-81D0-4631-8CCE-A57BAA672367\",\n\t\"jobCategoryGuid\": \"7EAB3D86-81D0-4631-8CCE-A57BAA672367\",\n\t\"title\": \"CNC Trainee\",\n\t\"description\": \"<br><br>Aerotek is now hiring for 1st and 2nd shift CNC trainees!<br><br> <br><br>These are long term opportunities with training and overtime available!<br><br> <br><br>Job duties:<br><br>- operate both CNC mills and lathes<br><br>- perform quality inspection of parts<br><br>- load and unload parts<br><br>- use hand tools such as grinders<br><br> <br><br>Individuals with a mechanical aptitude or previous experience who are interested in learning this skill can apply by calling 3096614914 or email at <br><br> <br><br> <br><br> <br><br><strong>About Aerotek:</strong><br><br><strong>We know that a company's success starts with its employees. We also know that an individual's success starts with the right career opportunity. As a Best of Staffing® Client and Talent leader, Aerotek's people-focused approach yields competitive advantage for our clients and rewarding careers for our contract employees. Since 1983, Aerotek has grown to become a leader in recruiting and staffing services. With more than 250 non-franchised offices, Aerotek's 8,000 internal employees serve more than 300,000 contract employees and 18,000 clients every year. Aerotek is an Allegis Group company, the global leader in talent solutions. Learn more at Aerotek.com.</strong><br><br><b>The company is an equal opportunity employer and will consider all applications without regards to race, sex, age, color, religion, national origin, veteran status, disability, sexual orientation, gender identity, genetic information or any characteristic protected by law.</b><br><br><b>If you would like to request a reasonable accommodation, such as the modification or adjustment of the job application process or interviewing process due to a disability, please call 888-237-6835 or email accommodation@aerotek .com for other accommodation options. However, if you have questions about this position, please contact the Recruiter located at the bottom of the job posting. The Recruiter is the sole point of contact for questions about this position.</b>\",\n\t\"securityClearanceGuid\": \"E9EDFD4D-3791-4660-96EC-45C3D8FF18C1\",\n\t\"employmentTypeGuid\": \"D1179F10-F629-4FF2-B00B-C01557283A82\",\n\t\"h2Visa\": false,\n\t\"isAgencyJobPosting\": true,\n\t\"telecommutePercentage\": 0,\n\t\"compensation\": 0,\n\t\"compensationTypeGuid\": \"0ACCE599-E528-4EDD-9B6E-1D52C910F9D8\",\n\t\"thirdPartyApply\": true,\n\t\"thirdPartyApplicationUrl\": \"https://www.aerotek.com/en-US/job/J3T2XQ71X8RX3DR1P6S\",\n\t\"country\": \"US\",\n\t\"city\": \"Peoria\",\n\t\"province\": \"IL\",\n\t\"postalCode\": 61525,\n\t\"streetAddress\": \"123 Main St\",\n\t\"experienceLevelGuid\": \"91C15A9E-055D-4E14-BA4C-BD2F3AC28CA1\",\n\t\"educationLevel\": \"36068679-6111-4160-8310-71C009414880\",\n\t\"jobPostingSkillGuids\": [\n\t\t\"17d2f8ad-e9b2-4363-b361-e6f0aaa6d85d\",\n\t\t\"21a445e1-269d-45e2-8543-6ce17ad67e5e\",\n\t\t\"375f6fba-32ac-4a33-97d8-019b4b9c748e\",\n\t\t\"8258224a-195d-48ae-984c-b1326db95262\"\n\t],\n\t\"isPrivate\": 0,\n\t\"thirdPartyIdentifier\": \"6862906\",\n\t\"metaDescription\": \"Search for CNC Trainee jobs near Peoria, IL with CareerCircle and find your next great opportunity today.\",\n\t\"metaTitle\": \"CNC Trainee\",\n\t\"metaKeywords\": \"Peoria  IL Employment, Work, CNC Trainee Jobs , lathes Jobs, mechanical aptitude Jobs, learning Jobs, mills Jobs\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Job Admin"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -9986,14 +9978,7 @@
         "request": {
           "description": "The job alert to be created. Note that the dates and times are UTC (it is the responsibility of the calling code to convert to the user's local time zone). Only two values may be passed to \"frequency\": \"Weekly\" or \"Daily\". Weekly alerts require the \"executionDayOfWeek\" parameter to be populated - acceptable values for this field are \"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", and \"Saturday\". For Daily alerts, the \"executionDayOfWeek\" parameter is ignored.",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"description\": \"Search result for keyword 'avionics' in location 'Colorado'\",\n\t\"frequency\": \"Weekly\",\n\t\"executionDayOfWeek\": \"Friday\",\n\t\"location\": \"Colorado\",\n\t\"keywords\": \"avionics\"\t\t\n}",
-              "schemaId": "1568048068575"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -10246,15 +10231,7 @@
           {
             "statusCode": 200,
             "description": "",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n\t{\n\t\t\"description\": \"Search result for keyword 'avionics' in location 'Colorado'\",\n\t\t\"keywords\": \"IT Jobs\",\n\t\t\"location\": \"Colorado\",\n\t\t\"frequency\": \"Weekly\",\n\t\t\"executionDayOfWeek\": \"Friday\",\n\t\t\"jobAlertGuid\": \"827F959C-0D21-4695-936B-D34CC6549AD8\"\n\t}, \n\t{\n\t\t\"description\": \"Search result for keyword 'welding' in location 'Michigan'\",\n\t\t\"keywords\": \"IT Jobs\",\n\t\t\"location\": \"Maryland\",\n\t\t\"frequency\": \"Daily\",\n\t\t\"executionDayOfWeek\": null,\n\t\t\"jobAlertGuid\": \"FAA78D8E-3D26-4F4A-A0D6-A7EC721F263E\"\n\t}\n]   ",
-                "schemaId": "1568048068575",
-                "typeName": "Job Alert List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -10330,15 +10307,7 @@
         "request": {
           "description": "The cover letter content to use (from a resume).",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\t \n\t\"firstName\" : \"jim\",\n\t\"lastName\" : \"brazil\", \n\t\"coverLetter\" :   \"Take my application please!\"\t\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Job Application"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
