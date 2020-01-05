@@ -1913,7 +1913,7 @@
                   }
                 }
               },
-              "Traitify - Create": {
+              "Traitirepfy - Create": {
                 "type": "object",
                 "properties": {
                   "firstName": {
@@ -3392,14 +3392,7 @@
             "statusCode": 200,
             "description": " ",
             "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "\n {  \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "representations": []
           }
         ],
         "displayName": "Blog - Author Slugs",
@@ -3440,7 +3433,8 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": []
+            "headers": [],
+            "representations": []
           }
         ],
         "displayName": "Blog - Category Slugs",
@@ -3490,14 +3484,7 @@
             "statusCode": 200,
             "description": " ",
             "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "\n {  \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n",
-               "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "representations": []
           }
         ],
         "displayName": "Blog - Detail By Slug",
@@ -3554,7 +3541,8 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": []
+            "headers": [],
+            "representations": []
           }
         ],
         "displayName": "Blog - List",
@@ -3603,7 +3591,8 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": []
+            "headers": [],
+            "representations": []
           }
         ],
         "displayName": "Blog - List By Author",
@@ -3877,7 +3866,8 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": []
+            "headers": [],
+            "representations": []
           }
         ],
         "displayName": "Blog - Tag Slugs",
@@ -3927,7 +3917,7 @@
             "description": " ",
             "headers": [],
             "representations": []
-          }
+				  }
         ],
         "displayName": "Butter Cache - Clear",
         "method": "PUT",
@@ -4016,7 +4006,8 @@
           {
             "statusCode": 200,
             "description": "This is a company.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 404,
@@ -4112,7 +4103,8 @@
         "request": {
           "description": "Request Payload",
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -4180,7 +4172,8 @@
           {
             "statusCode": 200,
             "description": "The response represents the recommended courses a subscriber should enroll in based on the their skills.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -4233,7 +4226,8 @@
           {
             "statusCode": 200,
             "description": "The response represents the recommended courses a subscriber should enroll in based on the their skills.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -4316,7 +4310,8 @@
           {
             "statusCode": 200,
             "description": "The response represents the recommended courses a subscriber should enroll in based on the their skills.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -5039,7 +5034,8 @@
           {
             "statusCode": 200,
             "description": "A list of compensation types.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -5174,7 +5170,8 @@
           {
             "statusCode": 200,
             "description": "Contact types for the contact us page. ",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -5597,7 +5594,8 @@
           {
             "statusCode": 200,
             "description": "A list of countries.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -5661,7 +5659,8 @@
         "description": "Updates a specific country.",
         "request": {
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -5797,7 +5796,8 @@
           {
             "statusCode": 200,
             "description": "The response contains detail pertaining to a course.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -5894,7 +5894,8 @@
           {
             "statusCode": 200,
             "description": "",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -5982,14 +5983,7 @@
             "statusCode": 200,
             "description": "This response contains the name and discount amount for the promo code. ",
             "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n      \"promoCodeGuid\": \"0e261c60-7f3c-4b57-8475-ae5fffa14070\",\n      \"name\": \"Woz Promo\",\n      \"discountAmount\": \"100.00\"\n    }",
-                "schemaId": "1568048068575",
-                "typeName": "Promo Code"
-              }
-            ]
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -6197,7 +6191,8 @@
           {
             "statusCode": 200,
             "description": "This response contains details pertaining to a course.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -6269,14 +6264,7 @@
             "statusCode": 200,
             "description": "",
             "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "true",
-                "schemaId": "1568048068575",
-                "typeName": "Job Favorite List"
-              }
-            ]
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -6515,7 +6503,8 @@
           {
             "statusCode": 200,
             "description": "Jobs that have been marked as favorites by the subscriber.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -6597,7 +6586,8 @@
           {
             "statusCode": 200,
             "description": "This is a course level.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -6694,7 +6684,8 @@
           {
             "statusCode": 200,
             "description": "A list of course levels.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -6768,7 +6759,8 @@
           {
             "statusCode": 200,
             "description": "Returns active jobs that conform to the query parameters.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -6887,14 +6879,7 @@
             "statusCode": 200,
             "description": "Returns courses that conform to the query parameters.",
             "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n    \"pageSize\": 1000,\n    \"pageNum\": 1,\n    \"courseCount\": 1,\n    \"totalHits\": 1,\n    \"numPages\": 1,\n    \"searchTimeInMilliseconds\": 13965.8048,\n    \"searchQueryTimeInTicks\": 16946662,\n    \"searchMappingTimeInTicks\": 122711386,\n    \"courses\": [\n        {\n            \"title\": \"Front End Frameworks - React\",\n            \"duration\": null,\n            \"description\": \"Description:The Front End Frameworks course is an introduction to JavaScript Front End Frameworks which enable rapid front-end development meeting modern best practices. Students will learn how to create Single Page Web Applications (SPA). Framework-specific concepts will be covered, outlining the nuances associated with the elective framework (React).Objectives:Learn a framework to make front-end code more maintainableCommunicate with back-end REST servicesLearn how to manage state in an applicationLearn how to use components when building an applicationLearn how to use routing to support multiple pages within a SPA\",\n            \"numEnrollments\": 0,\n            \"vendorName\": \"WozU\",\n            \"courseGuid\": \"ec7243f5-3117-447f-a945-92835500f364\",\n            \"vendorLogoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Vendor/00000000-0000-0000-0000-000000000001/woz.png\",\n            \"vendorGuid\": \"00000000-0000-0000-0000-000000000001\",\n            \"courseLevelGuid\": null,\n            \"code\": \"FSWG101\",\n            \"level\": \"Advanced\",\n            \"createDate\": \"2018-10-16T13:38:53.561Z\",\n            \"modifyDate\": \"2019-12-09T20:54:50.063Z\",\n            \"isDeleted\": 0,\n            \"tabletImage\": null,\n            \"desktopImage\": \"https://careercirclestaging.blob.core.windows.net/assets/Course/EC7243F5-3117-447F-A945-92835500F364/full-stack.jpg\",\n            \"mobileImage\": null,\n            \"thumbnailImage\": null,\n            \"topic\": \"Dev Full Stack\",\n            \"courseSkills\": \"react.js\\t\\t; html; json; css; restful web services; javascript; react; restful api; reactjs; single page application\"\n        }\n    ]\n}",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -6999,7 +6984,8 @@
           {
             "statusCode": 200,
             "description": "A list of skills.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -7080,7 +7066,8 @@
           {
             "statusCode": 200,
             "description": "A collection of course variant.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -7164,7 +7151,8 @@
           {
             "statusCode": 200,
             "description": "A list of courses that are related to the specified course.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -7246,13 +7234,15 @@
                 "application/json"
               ]
             }
-          ]
+          ],
+          "representations": []
         },
         "responses": [
           {
             "statusCode": 200,
             "description": "A list of related courses.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -7338,7 +7328,8 @@
           {
             "statusCode": 200,
             "description": "A list of courses that are related to the specified job.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -7432,13 +7423,15 @@
                 "application/json"
               ]
             }
-          ]
+          ],
+          "representations": []
         },
         "responses": [
           {
             "statusCode": 200,
             "description": "A list of related courses.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -7527,7 +7520,8 @@
           {
             "statusCode": 200,
             "description": "A list of courses that are related to the specified subscriber.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -7588,7 +7582,8 @@
         "request": {
           "description": "This is an education level.",
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -7737,7 +7732,8 @@
           {
             "statusCode": 200,
             "description": "This is an education level.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -7834,7 +7830,8 @@
           {
             "statusCode": 200,
             "description": "A list of education levels.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -7898,7 +7895,8 @@
         "description": "Retrieves a specific education level.",
         "request": {
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -7968,7 +7966,8 @@
           {
             "statusCode": 200,
             "description": "A list of all educational degree types.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -8028,7 +8027,8 @@
           {
             "statusCode": 200,
             "description": "A list of all educational degree types.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -8120,7 +8120,8 @@
           {
             "statusCode": 200,
             "description": "A list of all educational degree types.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -8166,7 +8167,8 @@
         "request": {
           "description": "This is an employment type.",
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -8315,7 +8317,8 @@
           {
             "statusCode": 200,
             "description": "This is an employment type.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -8412,7 +8415,8 @@
           {
             "statusCode": 200,
             "description": "A list of employment types.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -8477,7 +8481,8 @@
         "request": {
           "description": "An employment type.",
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -8541,13 +8546,15 @@
         "request": {
           "description": "Details about the subscriber to be created.",
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
             "statusCode": 200,
             "description": "",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -8586,7 +8593,8 @@
         "description": "Creates a company.",
         "request": {
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -8735,7 +8743,8 @@
           {
             "statusCode": 200,
             "description": "This is a company.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -8832,7 +8841,8 @@
           {
             "statusCode": 200,
             "description": "",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -8896,7 +8906,8 @@
         "description": "Retrieves a specific experience level.",
         "request": {
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -8960,7 +8971,8 @@
         "request": {
           "description": "Creates an industry.",
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -9110,14 +9122,7 @@
             "statusCode": 200,
             "description": "This is an industry.",
             "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n\t\"industryGuid\" : \"805B7834-2B82-44AA-BBDE-0A3DD8171E37\",\n\t\"industryName\" : \"Management\"\n}\n",
-                "schemaId": "1568048068575",
-                "typeName": "Industry"
-              }
-            ]
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -9214,7 +9219,8 @@
           {
             "statusCode": 200,
             "description": "A list of industries.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -9279,7 +9285,8 @@
         "request": {
           "description": "The industry to update.",
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -9343,7 +9350,8 @@
         "request": {
           "description": "The body of the message contains all of the information required to create a course referral - the subscriber that will be associated with the sender comes from the JWT submitted with the request.",
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -9406,7 +9414,8 @@
         "request": {
           "description": "This is a job.",
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -9555,7 +9564,8 @@
           {
             "statusCode": 200,
             "description": "This is a company.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -9652,7 +9662,8 @@
           {
             "statusCode": 200,
             "description": "A list of jobs.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -9716,7 +9727,8 @@
         "description": "Updates a specific job.",
         "request": {
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -9780,7 +9792,8 @@
         "request": {
           "description": "The job alert to be created. Note that the dates and times are UTC (it is the responsibility of the calling code to convert to the user's local time zone). Only two values may be passed to \"frequency\": \"Weekly\" or \"Daily\". Weekly alerts require the \"executionDayOfWeek\" parameter to be populated - acceptable values for this field are \"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", and \"Saturday\". For Daily alerts, the \"executionDayOfWeek\" parameter is ignored.",
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -9946,6 +9959,7 @@
           "description": "The job alert to be created. Note that the dates and times are UTC (it is the responsibility of the calling code to convert to the user's local time zone). Only two values may be passed to \"frequency\": \"Weekly\" or \"Daily\". Weekly alerts require the \"executionDayOfWeek\" parameter to be populated - acceptable values for this field are \"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", and \"Saturday\". For Daily alerts, the \"executionDayOfWeek\" parameter is ignored.",
           "queryParameters": [],
           "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -10026,7 +10040,8 @@
           {
             "statusCode": 200,
             "description": "",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -10102,7 +10117,8 @@
         "request": {
           "description": "The cover letter content to use (from a resume).",
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -10168,7 +10184,8 @@
         "request": {
           "description": "The cover letter content to use (from a resume).",
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
@@ -10299,7 +10316,8 @@
           {
             "statusCode": 200,
             "description": "",
-            "headers": []
+            "headers": [],
+            "representations": []
           }
         ],
         "displayName": "Job Browse Location - List",
@@ -10339,7 +10357,8 @@
           {
             "statusCode": 200,
             "description": "The total number of active jobs.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -10432,7 +10451,8 @@
           {
             "statusCode": 200,
             "description": "The total number of active jobs.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -10511,7 +10531,8 @@
           {
             "statusCode": 200,
             "description": "Returns active jobs that conform to the query parameters.",
-            "headers": []
+            "headers": [],
+            "representations": []
           },
           {
             "statusCode": 400,
@@ -10594,7 +10615,8 @@
         "description": "A demonstration of a POST call based on the echo backend above. The request body is expected to contain JSON-formatted data (see example below). A policy is used to automatically transform any request sent in JSON directly to XML. In a real-world scenario this could be used to enable modern clients to speak to a legacy backend.",
         "request": {
           "queryParameters": [],
-          "headers": []
+          "headers": [],
+          "representations": []
         },
         "responses": [
           {
