@@ -6916,15 +6916,7 @@
           {
             "statusCode": 200,
             "description": "A list of course levels.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    {\n        \"courseLevelGuid\": \"9b69fcb9-85e2-4778-b2a3-1418b5acfe8f\",\n        \"name\": \"Beginner\",\n        \"description\": \"Courses for beginners\",\n        \"sortOrder\": 10\n    },\n    {\n        \"courseLevelGuid\": \"22e6a3bb-1184-42ef-a50f-1455760772f2\",\n        \"name\": \"Intermediate\",\n        \"description\": \"Course has intermediate level of difficulty\",\n        \"sortOrder\": 20\n    }\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Course Level - List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
