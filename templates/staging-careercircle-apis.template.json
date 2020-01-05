@@ -3395,7 +3395,7 @@
             "representations": [
               {
                 "contentType": "application/json",
-                "sample": "[\n  {  \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n]",
+                "sample": "\n {  \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n",
                 "schemaId": "1568048068575",
                 "typeName": ""
               }
@@ -3501,8 +3501,8 @@
             "representations": [
               {
                 "contentType": "application/json",
-                "sample": "[\n   { \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n]",
-                "schemaId": "1568048068575",
+                "sample": "\n {  \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n",
+               "schemaId": "1568048068575",
                 "typeName": ""
               }
             ]
@@ -3566,8 +3566,8 @@
             "representations": [
               {
                 "contentType": "application/json",
-                "sample": "[\n  {  \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n]",
-                "schemaId": "1568048068575",
+                "sample": "\n {  \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n",
+               "schemaId": "1568048068575",
                 "typeName": ""
               }
             ]
@@ -3623,8 +3623,8 @@
             "representations": [
               {
                 "contentType": "application/json",
-                "sample": "[\n  { \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n]",
-                "schemaId": "1568048068575",
+                "sample": "\n {  \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n",
+               "schemaId": "1568048068575",
                 "typeName": ""
               }
             ]
@@ -3679,7 +3679,7 @@
             "representations": [
               {
                 "contentType": "application/json",
-                "sample": "[\n   { \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n]",
+               "sample": "\n {  \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n",
                 "schemaId": "1568048068575",
                 "typeName": ""
               }
@@ -3736,8 +3736,8 @@
             "representations": [
               {
                 "contentType": "application/json",
-                "sample": "[\n {  \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n]",
-                "schemaId": "1568048068575",
+               "sample": "\n {  \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n",
+               "schemaId": "1568048068575",
                 "typeName": ""
               }
             ]
@@ -3842,7 +3842,7 @@
             "representations": [
               {
                 "contentType": "application/json",
-               "sample": "[\n {  \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n]",
+               "sample": "\n {  \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"}\n",
                "schemaId": "1568048068575",
                 "typeName": ""
               }
