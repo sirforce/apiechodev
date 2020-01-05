@@ -3957,6 +3957,2623 @@
     },
     {
       "properties": {
+        "templateParameters": [
+          {
+            "name": "key",
+            "type": "",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Clears an item in the Butter CMS page from cache",
+        "request": {
+          "description": "{\n\t\"url\" : \"traitify\" ,\n\t\"queryParameters\" : {\n\t\t\"levels\" : \"4\" \n\t\t\n\t}\n\t      \n}",
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": " ",
+            "headers": [],
+            "representations": [
+              {
+                "contentType": "application/json",
+                "sample": "",
+                "schemaId": "1568048068575",
+                "typeName": ""
+              }
+            ]
+          }
+        ],
+        "displayName": "Butter Cache - Clear",
+        "method": "PUT",
+        "urlTemplate": "/butter/cache/clear/{key}"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de7d84b66ddabcad2bd627b')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5de7d84b66ddabcad2bd627b-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de7d84b66ddabcad2bd627b/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5de7d84b66ddabcad2bd627b')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "pageslug",
+            "type": "",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Clears a Butter CMS page from cache",
+        "request": {
+          "description": "{\n\t\"url\" : \"traitify\" ,\n\t\"queryParameters\" : {\n\t\t\"levels\" : \"4\" \n\t\t\n\t}\n\t      \n}",
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": " ",
+            "headers": [],
+            "representations": [
+              {
+                "contentType": "application/json",
+                "sample": "",
+                "schemaId": "1568048068575",
+                "typeName": ""
+              }
+            ]
+          }
+        ],
+        "displayName": "Butter Cache - Clear Page",
+        "method": "PUT",
+        "urlTemplate": "/butter/cache/page/clear/{pageslug}"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de7d6c395b22e1acb836073')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5de7d6c395b22e1acb836073-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de7d6c395b22e1acb836073/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5de7d6c395b22e1acb836073')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Retrieves a content field from Butter cms.  Requires the following to be passed in the body:\n{\n\t\"keys\" : [\"careercircle_public_site_navigation\" ],\n\t\"queryParameters\" : {\n\t\t\"levels\" : \"4\" \t\t\n\t}\t        \t\n}",
+        "request": {
+          "description": "{\n\t\"keys\" : [\"careercircle_public_site_navigation\" ],\n\t\"queryParameters\" : {\n\t\t\"levels\" : \"4\" \n\t\n\t}\t       \n}",
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "This is a company.",
+            "headers": []
+          },
+          {
+            "statusCode": 404,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Butter Content Field - Detail",
+        "method": "PUT",
+        "urlTemplate": "/butter/content-field"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de7d26386052a74e04a7207')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5de7d26386052a74e04a7207-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de7d26386052a74e04a7207/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5de7d26386052a74e04a7207')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Retrieves a page  from Butter cms.  Requires the following to be passed in the body:\n{\n\t\"url\" : \"traitify\" ,\n\t\"queryParameters\" : {\n\t\t\"levels\" : \"4\" \n\t}\n}",
+        "request": {
+          "description": "{\n\t\"url\" : \"traitify\" ,\n\t\"queryParameters\" : {\n\t\t\"levels\" : \"4\" \n\t\t\n\t}\n\t      \n}",
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "This is a company.",
+            "headers": [],
+            "representations": [
+              {
+                "contentType": "application/json",
+                "sample": "{\n    \"data\": {\n        \"slug\": \"traitify\",\n        \"fields\": {\n            \"partner\": {\n                \"description\": \"World's fastest personality assessment. Scientifically-backed and user-focused. Designed to quickly and accurately collect personality data.\",\n                \"name\": \"Traitify\",\n                \"guid\": \"692B5E6C-140B-4F2E-BD06-4C03BA40AD6A\"\n            },\n            \"title\": \"CareerCircle Personality Assessment\",\n            \"meta_description\": \"Free personality assessment using Traitify\",\n            \"meta_keywords\": \"traitify personality assessment career \",\n            \"ogtitle\": \"Traitify Personality Assessment\",\n            \"ogdescription\": \"A page containing access to Traitify personality assessment \",\n            \"ogimage\": \"https://cdn.buttercms.com/uzUA3xukRTeWTIj9euET\",\n            \"hero_header\": \"Take our personality assessment\",\n            \"hero_image\": \"https://cdn.buttercms.com/uzUA3xukRTeWTIj9euET\",\n            \"hero_description\": \"<p><iframe width=\\\"640\\\" height=\\\"360\\\" src=\\\"https://player.vimeo.com/video/369366274\\\" frameborder=\\\"0\\\" allow=\\\"autoplay; fullscreen\\\" allowfullscreen=\\\"allowfullscreen\\\"></iframe> What seems like magic is just good science. Your brain processes images 60,000 times faster than words! So we're introducing an image-based test powered by Traitify that collects hundreds of personality data points 30x faster than comparable assessments, and via mobile phone&ndash;in 90 seconds. All without compromising reliability and validity.</p>\",\n            \"modal_header\": \"Thank you!\",\n            \"modal_text\": \"<p>Thank you for completing the assessment! The results will be emailed to you. You will need to verify your email before logging in for the first time.</p>\",\n            \"form_header\": \"Enter your info to get started\",\n            \"form_text\": \"We will not share this information with anyone. \",\n            \"form_submit_button_text\": \"Start the assessment \",\n            \"existing_user_submit_button_text\": \"Click here to begin the assessment\",\n            \"signup_form_image_banner\": \"https://cdn.buttercms.com/l6Bd0dElSdqYDy7G86PH\",\n            \"signup_form_header\": \"Enter a password\",\n            \"signup_form_text\": \"This is where to enter password\",\n            \"signup_form_submit_button_text\": \"Click here to sign up!\",\n            \"signup_hero_title\": \"Sign up for a CareerCircle account to get your full result!\",\n            \"signup_hero_content\": \"<p>Get connected with courses that match your personality!</p>\",\n            \"result_footer_text\": \"<p>Create an account to get your full results today!&nbsp;</p>\\n<p><a href=\\\"#top\\\">Jump to top of page</a></p>\"\n        }\n    }\n}",
+                "schemaId": "1568048068575",
+                "typeName": ""
+              }
+            ]
+          },
+          {
+            "statusCode": 404,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Butter Page - Detail",
+        "method": "PUT",
+        "urlTemplate": "/butter/page"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de7d48411486090b27be4a5')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5de7d48411486090b27be4a5-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de7d48411486090b27be4a5/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5de7d48411486090b27be4a5')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "topic",
+            "description": "This is a unique identifier for a career path",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "This returns list of possible career paths ",
+        "request": {
+          "description": "Request Payload",
+          "queryParameters": [],
+          "headers": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "The response represents the recommended courses a subscriber should enroll in based on the their skills.",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "Server cannot or will not process the request due to something that is perceived to be a client error.",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Career Path - Courses",
+        "method": "GET",
+        "urlTemplate": "/careerpath/{topic}/courses"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de80ee637c6219594f37da7')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5de80ee637c6219594f37da7-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de80ee637c6219594f37da7/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5de80ee637c6219594f37da7')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "topic",
+            "description": "This is a unique identifier for a career path",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Returns skills that can be gained through a career path",
+        "request": {
+          "description": "Request Payload",
+          "queryParameters": [],
+          "headers": [],
+          "representations": [
+            {
+              "contentType": "application/json",
+              "sample": "{\n    \"company\" : \"Allegis Group\",\n    \"startDate\" : \"9/1/2018\",\n    \"endDate\" : null,\n    \"jobTitle\": \"Senior Software Engineer\",\n    \"jobDescription\" : \"Lead team of developers\",\n    \"rate\" : 60.25,\n    \"compensationTypeGuid\" : \"f3061c0f-41ee-4bb1-b655-328f22653ef3\",\n    \"isCurrent\": true\n}",
+              "schemaId": "1568048068575",
+              "typeName": ""
+            }
+          ]
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "The response represents the recommended courses a subscriber should enroll in based on the their skills.",
+            "headers": []
+          },
+          {
+            "statusCode": 400,
+            "description": "Server cannot or will not process the request due to something that is perceived to be a client error.",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Career Path - Detail",
+        "method": "GET",
+        "urlTemplate": "/careerpath/{topic}/"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5ded128f25419890b3234638')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5ded128f25419890b3234638-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5ded128f25419890b3234638/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5ded128f25419890b3234638')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "This returns list of possible career paths ",
+        "request": {
+          "description": "Request Payload",
+          "queryParameters": [],
+          "headers": [],
+          "representations": [
+            {
+              "contentType": "application/json",
+              "sample": "{\n    \"company\" : \"Allegis Group\",\n    \"startDate\" : \"9/1/2018\",\n    \"endDate\" : null,\n    \"jobTitle\": \"Senior Software Engineer\",\n    \"jobDescription\" : \"Lead team of developers\",\n    \"rate\" : 60.25,\n    \"compensationTypeGuid\" : \"f3061c0f-41ee-4bb1-b655-328f22653ef3\",\n    \"isCurrent\": true\n}",
+              "schemaId": "1568048068575",
+              "typeName": ""
+            }
+          ]
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "The response represents the recommended courses a subscriber should enroll in based on the their skills.",
+            "headers": []
+          },
+          {
+            "statusCode": 400,
+            "description": "Server cannot or will not process the request due to something that is perceived to be a client error.",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Career Path - List",
+        "method": "GET",
+        "urlTemplate": "/careerpath/"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7aa219d30fa434b8b5d664')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d7aa219d30fa434b8b5d664-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7aa219d30fa434b8b5d664/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7aa219d30fa434b8b5d664')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Courses"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7aa219d30fa434b8b5d664/courses')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7aa219d30fa434b8b5d664')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Subscribers"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7aa219d30fa434b8b5d664/subscribers')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7aa219d30fa434b8b5d664')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "topic",
+            "description": "This is a unique identifier for a career path",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Returns skills that can be gained through a career path",
+        "request": {
+          "description": "Request Payload",
+          "queryParameters": [],
+          "headers": [],
+          "representations": [
+            {
+              "contentType": "application/json",
+              "sample": "{\n    \"company\" : \"Allegis Group\",\n    \"startDate\" : \"9/1/2018\",\n    \"endDate\" : null,\n    \"jobTitle\": \"Senior Software Engineer\",\n    \"jobDescription\" : \"Lead team of developers\",\n    \"rate\" : 60.25,\n    \"compensationTypeGuid\" : \"f3061c0f-41ee-4bb1-b655-328f22653ef3\",\n    \"isCurrent\": true\n}",
+              "schemaId": "1568048068575",
+              "typeName": ""
+            }
+          ]
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "The response represents the recommended courses a subscriber should enroll in based on the their skills.",
+            "headers": []
+          },
+          {
+            "statusCode": 400,
+            "description": "Server cannot or will not process the request due to something that is perceived to be a client error.",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Career Path - Skills",
+        "method": "GET",
+        "urlTemplate": "/careerpath/{topic}/skills"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de80f7472be6b1cabc21866')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5de80f7472be6b1cabc21866-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de80f7472be6b1cabc21866/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5de80f7472be6b1cabc21866')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Retrieves all companies. This endpoint is intended to be used from an admin screen (hence the paging and sorting capability).",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "",
+            "headers": [],
+            "representations": [
+              {
+                "contentType": "application/json",
+                "sample": " [{\n        \"companyGuid\": \"b0eb0b98-2a67-4581-abc4-d5d8c1d71060\",\n        \"companyName\": \"Test Group\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    },\n    {\n        \"companyGuid\": \"4cd09e0a-fcec-4a05-a791-d91acb5906da\",\n        \"companyName\": \"Test Name\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 1,\n        \"isJobPoster\": 1\n    },\n    {\n        \"companyGuid\": \"f240a4f5-890d-4abd-9e40-57ffd0c93564\",\n        \"companyName\": \"wells fargo\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    },\n    {\n        \"companyGuid\": \"b7bae821-9991-484a-969a-883ef72a7879\",\n        \"companyName\": \"united healthcare\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    },\n    {\n        \"companyGuid\": \"800fc2e8-be14-4571-b68b-8cd150132407\",\n        \"companyName\": \"edaptive systems\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    }]",
+                "schemaId": "1568048068575",
+                "typeName": "Company List"
+              }
+            ]
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Company - All",
+        "method": "GET",
+        "urlTemplate": "/companies/all"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5e0b93a9cc940451356f2bdf')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5e0b93a9cc940451356f2bdf-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5e0b93a9cc940451356f2bdf/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5e0b93a9cc940451356f2bdf')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Creates a company.",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": [
+            {
+              "contentType": "application/json",
+              "sample": "{   \n\t\"isHiringAgency\": 1,\n\t\"companyName\": \"Allegis Group\",\n\t\"isJobPoster\": 1,\n\t\"logoUrl\": \"92728544-FDFD-493F-A7D3-5547DEA7B9DD/allegisgroup.png\"\n}",
+              "schemaId": "1568048068575",
+              "typeName": "Company"
+            }
+          ]
+        },
+        "responses": [
+          {
+            "statusCode": 201,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Company - Create",
+        "method": "POST",
+        "urlTemplate": "/companies"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company-create')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/company-create-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company-create/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', 'company-create')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Companies"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company-create/companies')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', 'company-create')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "company",
+            "description": "This is a unique identifier for a company.",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Deletes a company.",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 204,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Company - Delete",
+        "method": "DELETE",
+        "urlTemplate": "/companies/{company}"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company-delete')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/company-delete-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company-delete/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', 'company-delete')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Companies"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company-delete/companies')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', 'company-delete')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "company",
+            "description": "This is a unique identifier for a company.",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Retrieves a specific company.",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "This is a company.",
+            "headers": [],
+            "representations": [
+              {
+                "contentType": "application/json",
+                "sample": "{\n\t \"companyGuid\": \"f240a4f5-890d-4abd-9e40-57ffd0c93564\",\n    \"companyName\": \"wells fargo\",\n    \"jobPageBoilerplate\": null,\n    \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n    \"isHiringAgency\": 0,\n    \"isJobPoster\": 0\n}",
+                "schemaId": "1568048068575",
+                "typeName": "Company"
+              }
+            ]
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Company - Detail",
+        "method": "GET",
+        "urlTemplate": "/companies/{company}"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/company-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', 'company')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Companies"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company/companies')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', 'company')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Retrieves a list of companies. This endpoint is intended to be used from an admin screen (hence the paging and sorting capability).",
+        "request": {
+          "queryParameters": [
+            {
+              "name": "limit",
+              "description": "The number of records to return. Defaults to the maximum (100) if no value is specified.",
+              "type": "int",
+              "defaultValue": "100",
+              "required": false,
+              "values": [
+                "100"
+              ]
+            },
+            {
+              "name": "offset",
+              "description": "The number of records to skip before returning results. Defaults to zero if no value is specified.",
+              "type": "int",
+              "defaultValue": "0",
+              "required": false,
+              "values": [
+                "0"
+              ]
+            },
+            {
+              "name": "sort",
+              "description": "The field name on which to sort. Defaults to modifyDate if not specified.",
+              "type": "string",
+              "defaultValue": "modifyDate",
+              "required": false,
+              "values": [
+                "modifyDate"
+              ]
+            },
+            {
+              "name": "order",
+              "description": "The direction of the sort. Defaults to descending if not specified.",
+              "type": "string",
+              "required": false,
+              "values": [
+                "descending"
+              ]
+            }
+          ],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "",
+            "headers": [],
+            "representations": [
+              {
+                "contentType": "application/json",
+                "sample": " [{\n        \"companyGuid\": \"b0eb0b98-2a67-4581-abc4-d5d8c1d71060\",\n        \"companyName\": \"Test Group\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    },\n    {\n        \"companyGuid\": \"4cd09e0a-fcec-4a05-a791-d91acb5906da\",\n        \"companyName\": \"Test Name\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 1,\n        \"isJobPoster\": 1\n    },\n    {\n        \"companyGuid\": \"f240a4f5-890d-4abd-9e40-57ffd0c93564\",\n        \"companyName\": \"wells fargo\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    },\n    {\n        \"companyGuid\": \"b7bae821-9991-484a-969a-883ef72a7879\",\n        \"companyName\": \"united healthcare\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    },\n    {\n        \"companyGuid\": \"800fc2e8-be14-4571-b68b-8cd150132407\",\n        \"companyName\": \"edaptive systems\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    }]",
+                "schemaId": "1568048068575",
+                "typeName": "Company List"
+              }
+            ]
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Company - List",
+        "method": "GET",
+        "urlTemplate": "/companies"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company-list')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/company-list-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company-list/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', 'company-list')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Companies"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company-list/companies')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', 'company-list')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "company",
+            "description": "This is a unique identifier for a company.",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Retrieves a specific company.",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": [
+            {
+              "contentType": "application/json",
+              "sample": "{\n\t\"isHiringAgency\": true,\n\t\"companyName\": \"Allegis Group\",\n\t\"isJobPoster\": true\n}",
+              "schemaId": "1568048068575",
+              "typeName": "Company"
+            }
+          ]
+        },
+        "responses": [
+          {
+            "statusCode": 204,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Company - Update",
+        "method": "PUT",
+        "urlTemplate": "/companies/{company}"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company-update')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/company-update-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company-update/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', 'company-update')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Companies"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/company-update/companies')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', 'company-update')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Creates a compensation type.",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": [
+            {
+              "contentType": "application/json",
+              "sample": "{\n\t\"compensationTypeName\" : \"Monthly\"\n}",
+              "schemaId": "1568048068575",
+              "typeName": "Compensation Type"
+            }
+          ]
+        },
+        "responses": [
+          {
+            "statusCode": 201,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Compensation Type - Create",
+        "method": "POST",
+        "urlTemplate": "/compensation-types"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be08b4bf47c623fd724cb')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d7be08b4bf47c623fd724cb-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be08b4bf47c623fd724cb/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7be08b4bf47c623fd724cb')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Compensation Types"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be08b4bf47c623fd724cb/compensation-types')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7be08b4bf47c623fd724cb')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "compensationType",
+            "description": "This is a unique identifier for a compensation type.",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Deletes a compensation type.",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 204,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Compensation Type - Delete",
+        "method": "DELETE",
+        "urlTemplate": "/compensation-types/{compensationType}"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be088c583312df57c9369')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d7be088c583312df57c9369-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be088c583312df57c9369/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7be088c583312df57c9369')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Compensation Types"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be088c583312df57c9369/compensation-types')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7be088c583312df57c9369')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "compensationType",
+            "description": "This is a unique identifier for a compensation type.",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Retrieves a specific compensation type.",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "This is a company.",
+            "headers": [],
+            "representations": [
+              {
+                "contentType": "application/json",
+                "sample": "{\n\t\"compensationTypeName\" : \"Monthly\"\n}\t",
+                "schemaId": "1568048068575",
+                "typeName": "Compensation Type"
+              }
+            ]
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Compensation Type - Detail",
+        "method": "GET",
+        "urlTemplate": "/compensation-types/{compensationType}"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be085e9c75b062cf31941')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d7be085e9c75b062cf31941-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be085e9c75b062cf31941/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7be085e9c75b062cf31941')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Compensation Types"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be085e9c75b062cf31941/compensation-types')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7be085e9c75b062cf31941')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Retrieves a list of compensation types. This endpoint is intended to be used from an admin screen (hence the paging and sorting capability).",
+        "request": {
+          "queryParameters": [
+            {
+              "name": "limit",
+              "description": "The number of records to return. Defaults to the maximum (100) if no value is specified.",
+              "type": "int",
+              "defaultValue": "100",
+              "required": false,
+              "values": [
+                "100"
+              ]
+            },
+            {
+              "name": "offset",
+              "description": "The number of records to skip before returning results. Defaults to zero if no value is specified.",
+              "type": "int",
+              "defaultValue": "0",
+              "required": false,
+              "values": [
+                "0"
+              ]
+            },
+            {
+              "name": "sort",
+              "description": "The field name on which to sort. Defaults to modifyDate if not specified.",
+              "type": "string",
+              "defaultValue": "modifyDate",
+              "required": false,
+              "values": [
+                "modifyDate"
+              ]
+            },
+            {
+              "name": "order",
+              "description": "The direction of the sort. Defaults to descending if not specified.",
+              "type": "string",
+              "required": false,
+              "values": [
+                "descending"
+              ]
+            }
+          ],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "A list of compensation types.",
+            "headers": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Compensation Type - List",
+        "method": "GET",
+        "urlTemplate": "/compensation-types"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be0820f8063d8892821d3')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d7be0820f8063d8892821d3-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be0820f8063d8892821d3/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7be0820f8063d8892821d3')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Compensation Types"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be0820f8063d8892821d3/compensation-types')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7be0820f8063d8892821d3')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "compensationType",
+            "description": "This is the unique identifier for compensation type",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Retrieves a specific compensation type.",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": [
+            {
+              "contentType": "application/json",
+              "sample": "{\n\t\"compensationTypeName\" : \"Annual\"\n}",
+              "schemaId": "1568048068575",
+              "typeName": "Compensation Type"
+            }
+          ]
+        },
+        "responses": [
+          {
+            "statusCode": 204,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Compensation Type - Update",
+        "method": "PUT",
+        "urlTemplate": "/compensation-types/{compensationType}"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be07dab3be2310b7f518a')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d7be07dab3be2310b7f518a-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be07dab3be2310b7f518a/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7be07dab3be2310b7f518a')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Compensation Types"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7be07dab3be2310b7f518a/compensation-types')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7be07dab3be2310b7f518a')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Retrieves a collection of contact types.",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "Contact types for the contact us page. ",
+            "headers": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Contact Types - List",
+        "method": "GET",
+        "urlTemplate": "/contacts/types/"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7b989f167c430622356787')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d7b989f167c430622356787-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7b989f167c430622356787/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7b989f167c430622356787')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Contacts"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7b989f167c430622356787/contacts')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7b989f167c430622356787')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Creates a new resource based on the Hire Talent page. ",
+        "request": {
+          "description": "The request payload. Note the  contactType property refers to the guid based off the GET request.",
+          "queryParameters": [],
+          "headers": [],
+          "representations": [
+            {
+              "contentType": "application/json",
+              "sample": "{\n\"companyName\":\"Test company\",\n\"firstName\":\"Joe\",\n\"lastName\":\"Doe\",\n\"title\":\"This is a test title\",\n\"email\":\"jyotiguin1@gmail.com\",\n\"phone\":\"443 849 2832\",\n\"pipeline\":\"This is a test pipeline\",\n\"skillSet\":\"C#\",\n\"location\":\"Baltimore, MD\",\n\"comments\":\"Hey checkout this job\"\n}",
+              "schemaId": "1568048068575",
+              "typeName": "Contact Us (Create)"
+            }
+          ]
+        },
+        "responses": [
+          {
+            "statusCode": 201,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Contact Us - Create",
+        "method": "POST",
+        "urlTemplate": "/contacts/hire-talent"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5dfa7924be141041845752d5')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5dfa7924be141041845752d5-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5dfa7924be141041845752d5/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5dfa7924be141041845752d5')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Creates a new resource based on the Contact Us page. ",
+        "request": {
+          "description": "The request payload. Note the  contactType property refers to the guid based off the GET request.",
+          "queryParameters": [],
+          "headers": [],
+          "representations": [
+            {
+              "contentType": "application/json",
+              "sample": "{\n  \"firstName\":\" Bobby\",\n  \"lastName\" : \"Smith\",\n  \"email\" : \"bsmith@hello.com\",\n  \"contactType\" : \"General\",\n  \"message\" : \"Hi, I am inquering about the possible job oppertunity in Florida. Please reach me at 882-223-2323 \"\n}",
+              "schemaId": "1568048068575",
+              "typeName": "Contact Us (Create)"
+            }
+          ]
+        },
+        "responses": [
+          {
+            "statusCode": 201,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Contact Us - Create",
+        "method": "POST",
+        "urlTemplate": "/contacts/"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7b9a5948ca65e876175d7a')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d7b9a5948ca65e876175d7a-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7b9a5948ca65e876175d7a/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7b9a5948ca65e876175d7a')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Contacts"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7b9a5948ca65e876175d7a/contacts')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7b9a5948ca65e876175d7a')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Creates a country.",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": [
+            {
+              "contentType": "application/json",
+              "sample": "{\n\t\"displayName\" : \"Congo\",\n\t\"officialName\" : \"Congo - Brazzaville\",\n\t\"sequence\" : 53,\n\t\"code2\" : \"CG\",\n\t\"code3\" : \"COG\"\n}",
+              "schemaId": "1568048068575",
+              "typeName": "Country"
+            }
+          ]
+        },
+        "responses": [
+          {
+            "statusCode": 201,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Country - Create",
+        "method": "POST",
+        "urlTemplate": "/countries"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9c2c2c45c6b5eedd72c')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d7ba9c2c2c45c6b5eedd72c-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9c2c2c45c6b5eedd72c/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7ba9c2c2c45c6b5eedd72c')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Countries"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9c2c2c45c6b5eedd72c/countries')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7ba9c2c2c45c6b5eedd72c')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "country",
+            "description": "This is a unique identifier for a country.",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Deletes a country.",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 204,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Country - Delete",
+        "method": "DELETE",
+        "urlTemplate": "/countries/{country}"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9bfc29ba2db8087892d')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d7ba9bfc29ba2db8087892d-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9bfc29ba2db8087892d/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7ba9bfc29ba2db8087892d')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Countries"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9bfc29ba2db8087892d/countries')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7ba9bfc29ba2db8087892d')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "country",
+            "description": "This is a unique identifier for country.",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Retrieves a specific country.",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "This is a company.",
+            "headers": [],
+            "representations": [
+              {
+                "contentType": "application/json",
+                "sample": "{\n\t\"displayName\" : \"Congo\",\n\t\"officialName\" : \"Congo - Brazzaville\",\n\t\"sequence\" : 53,\n\t\"code2\" : \"CG\",\n\t\"code3\" : \"COG\"\n}",
+                "schemaId": "1568048068575",
+                "typeName": "Country"
+              }
+            ]
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Country - Detail",
+        "method": "GET",
+        "urlTemplate": "/countries/{country}"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9bb9ad39f0a2733287c')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d7ba9bb9ad39f0a2733287c-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9bb9ad39f0a2733287c/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7ba9bb9ad39f0a2733287c')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Countries"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9bb9ad39f0a2733287c/countries')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7ba9bb9ad39f0a2733287c')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Retrieves a list of countries. This endpoint is intended to be used from an admin screen (hence the paging and sorting capability).",
+        "request": {
+          "queryParameters": [
+            {
+              "name": "limit",
+              "description": "The number of records to return. Defaults to the maximum (100) if no value is specified.",
+              "type": "int",
+              "defaultValue": "100",
+              "required": false,
+              "values": [
+                "100"
+              ]
+            },
+            {
+              "name": "offset",
+              "description": "The number of records to skip before returning results. Defaults to zero if no value is specified.",
+              "type": "int",
+              "defaultValue": "0",
+              "required": false,
+              "values": [
+                "0"
+              ]
+            },
+            {
+              "name": "sort",
+              "description": "The field name on which to sort. Defaults to modifyDate if not specified.",
+              "type": "string",
+              "defaultValue": "modifyDate",
+              "required": false,
+              "values": [
+                "modifyDate"
+              ]
+            },
+            {
+              "name": "order",
+              "description": "The direction of the sort. Defaults to descending if not specified.",
+              "type": "string",
+              "required": false,
+              "values": [
+                "descending"
+              ]
+            }
+          ],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "A list of countries.",
+            "headers": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Country - List",
+        "method": "GET",
+        "urlTemplate": "/countries"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9b648af2d84ad16d48a')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d7ba9b648af2d84ad16d48a-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9b648af2d84ad16d48a/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7ba9b648af2d84ad16d48a')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Countries"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9b648af2d84ad16d48a/countries')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7ba9b648af2d84ad16d48a')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "country",
+            "description": "This is a unique identifier for a country.",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Updates a specific country.",
+        "request": {
+          "queryParameters": [],
+          "headers": []
+        },
+        "responses": [
+          {
+            "statusCode": 204,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Country - Update",
+        "method": "PUT",
+        "urlTemplate": "/countries/{country}"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9accadeb375134c854f')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d7ba9accadeb375134c854f-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9accadeb375134c854f/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7ba9accadeb375134c854f')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Countries"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d7ba9accadeb375134c854f/countries')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d7ba9accadeb375134c854f')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Retrieves the total number of available courses",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "The response contains detail pertaining to a course.",
+            "headers": [],
+            "representations": [
+              {
+                "contentType": "application/json",
+                "sample": "25",
+                "schemaId": "1568048068575",
+                "typeName": "Course - Detail"
+              }
+            ]
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Course - Count",
+        "method": "GET",
+        "urlTemplate": "/courses/count"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5decfcda8d2fc7705daf0542')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5decfcda8d2fc7705daf0542-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5decfcda8d2fc7705daf0542/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5decfcda8d2fc7705daf0542')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Courses"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5decfcda8d2fc7705daf0542/courses')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5decfcda8d2fc7705daf0542')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "course",
+            "description": "This is a unique identifier for a course",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Retrieves course details.",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "The response contains detail pertaining to a course.",
+            "headers": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Course - Detail  ",
+        "method": "GET",
+        "urlTemplate": "/courses/{course}"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d826a794cf4c57b8262276d')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d826a794cf4c57b8262276d-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d826a794cf4c57b8262276d/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d826a794cf4c57b8262276d')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Courses"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d826a794cf4c57b8262276d/courses')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d826a794cf4c57b8262276d')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Retrieves a collection of courses. ",
+        "request": {
+          "queryParameters": [
+            {
+              "name": "limit",
+              "description": "The number of records to return. Defaults to the maximum (100) if no value is specified.",
+              "type": "int",
+              "defaultValue": "100",
+              "required": true,
+              "values": [
+                "100"
+              ]
+            },
+            {
+              "name": "offset",
+              "description": "The number of records to skip before returning results. Defaults to zero if no value is specified.",
+              "type": "int",
+              "defaultValue": "0",
+              "required": true,
+              "values": [
+                "0"
+              ]
+            },
+            {
+              "name": "sort",
+              "description": "The field name on which to sort. Defaults to modifyDate if not specified.",
+              "type": "string",
+              "defaultValue": "modifyDate",
+              "required": true,
+              "values": [
+                "modifyDate"
+              ]
+            },
+            {
+              "name": "order",
+              "description": "The direction of the sort. Defaults to descending if not specified.",
+              "type": "string",
+              "required": true,
+              "values": [
+                "descending"
+              ]
+            }
+          ],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "",
+            "headers": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Course - List ",
+        "method": "GET",
+        "urlTemplate": "/courses/"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d8298c5da978366d4e6ff8f')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d8298c5da978366d4e6ff8f-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d8298c5da978366d4e6ff8f/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d8298c5da978366d4e6ff8f')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Courses"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d8298c5da978366d4e6ff8f/courses')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d8298c5da978366d4e6ff8f')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "course",
+            "description": "The course guid for the course",
+            "type": "guid",
+            "required": true,
+            "values": []
+          },
+          {
+            "name": "courseVariant",
+            "description": "this is a unique identifier for a course variant",
+            "type": "guid",
+            "required": true,
+            "values": []
+          },
+          {
+            "name": "promoCode",
+            "description": "The promotional code to be redeemed",
+            "type": "string ",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "This endpoint validates that a promo code applied to a specific course variant (self paced vs instructor-led). ",
+        "request": {
+          "queryParameters": [
+            {
+              "name": "promocode",
+              "description": "this is the promo code",
+              "type": "string",
+              "required": false,
+              "values": []
+            }
+          ],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "This response contains the name and discount amount for the promo code. ",
+            "headers": [],
+            "representations": [
+              {
+                "contentType": "application/json",
+                "sample": "{\n      \"promoCodeGuid\": \"0e261c60-7f3c-4b57-8475-ae5fffa14070\",\n      \"name\": \"Woz Promo\",\n      \"discountAmount\": \"100.00\"\n    }",
+                "schemaId": "1568048068575",
+                "typeName": "Promo Code"
+              }
+            ]
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 204,
+            "description": "This response represents the promo code cannot be applied to the course variant.",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Course - PromoCode",
+        "method": "GET",
+        "urlTemplate": "/courses/{course}/variant/{courseVariant}/promocodes/{promoCode}"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d82e4246f9f4c8484df0c29')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d82e4246f9f4c8484df0c29-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d82e4246f9f4c8484df0c29/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d82e4246f9f4c8484df0c29')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Courses"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d82e4246f9f4c8484df0c29/courses')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d82e4246f9f4c8484df0c29')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [],
+        "description": "Sends an email notification for a course from a logged-in user.",
+        "request": {
+          "description": "The body of the message contains all of the information required to create a course referral - the subscriber that will be associated with the sender comes from the JWT submitted with the request.",
+          "queryParameters": [],
+          "headers": [],
+          "representations": [
+            {
+              "contentType": "application/json",
+              "sample": "{\n\t\"courseGuid\": \"f20f34ae-e73e-4e8d-aa79-a0969183a0a8\",\n\t\"referralEmail\": \"joesmith@mail.com\",\n\t\"referralName\": \"Joe Smith\",\n\t\"referralDescription\": \"Check out this awesome course!\"\n}",
+              "schemaId": "1568048068575",
+              "typeName": "Course - Refer A Friend"
+            }
+          ]
+        },
+        "responses": [
+          {
+            "statusCode": 201,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Course - Refer A Friend",
+        "method": "POST",
+        "urlTemplate": "/courses/refer"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de91265c4ec0def6912d700')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5de91265c4ec0def6912d700-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de91265c4ec0def6912d700/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5de91265c4ec0def6912d700')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Courses"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5de91265c4ec0def6912d700/courses')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5de91265c4ec0def6912d700')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "course",
+            "description": "Guid of the course to enroll in",
+            "type": "",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Creates a enrollment for a course",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": [
+            {
+              "contentType": "application/json",
+              "sample": "{\n\n   \"nonce\" : \"This comes from a braintree call on the frontend\",\n   \"pricePaid\" : 45.5,\n   \"paymentAmount\" : 45.5,\n   \"firstName\": \"Jim\",\n   \"lastName\" : \"Braazil\",\n   \"phoneNumber\" : \"454545\",\n   \"email\": \"info.x.com\",\n   \"address\": \"5600 main street\",\n   \"region\": \"md\",\n   \"locality\": \"Towson\",\n   \"zipCode\": \"21204\",\n   \"countryCode\": \"us\",\n   \"merchantAccountId\": \"This a front end app setting\",\n   \"stateGuid\": \"8823f7f7-ecc2-4fe3-8461-79fdcb6873cc\",\n   \"countryGuid\": \"8b5dec9a-b5cf-4bdc-b015-ccfd4339d32b\",\n   \"courseGuid\": \"f0221f28-9104-45ec-b453-297afe9f4899\",\n   \"courseVariantGuid\": \"905D0B98-59FA-4857-813F-9136E57B1FE4\",\n   \"subscriberGuid\": \"71a7156e-173f-4054-83ed-ad6127bafe87\"\n}\n\n",
+              "schemaId": "1568048068575",
+              "typeName": "Course - Enroll"
+            }
+          ]
+        },
+        "responses": [
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 200,
+            "description": "Returns the guid of the new course enrollment ",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Course Enroll - Create",
+        "method": "POST",
+        "urlTemplate": "/courses/{course}/enroll"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d82df129165390fd13689b7')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d82df129165390fd13689b7-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d82df129165390fd13689b7/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d82df129165390fd13689b7')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Courses"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d82df129165390fd13689b7/courses')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d82df129165390fd13689b7')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "course",
+            "description": "Guid of the course to return",
+            "type": "",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Retrieves a details for a course enrollment. The user must be authorized in order to call make a request to this operation. ",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "This response contains details pertaining to a course.",
+            "headers": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Course Enroll - Detail",
+        "method": "GET",
+        "urlTemplate": "/courses/{course}/enroll"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d83887994d071d6b9d6f8c0')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5d83887994d071d6b9d6f8c0-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d83887994d071d6b9d6f8c0/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d83887994d071d6b9d6f8c0')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Courses"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5d83887994d071d6b9d6f8c0/courses')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5d83887994d071d6b9d6f8c0')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "course",
+            "description": "This is the unique identifier for course",
+            "type": "guid",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Returns true or false indicating if the subscriber has favorited a particular course",
+        "request": {
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 200,
+            "description": "",
+            "headers": [],
+            "representations": [
+              {
+                "contentType": "application/json",
+                "sample": "true",
+                "schemaId": "1568048068575",
+                "typeName": "Job Favorite List"
+              }
+            ]
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Course Favorite - Check",
+        "method": "GET",
+        "urlTemplate": "/courses/{course}/favorites/"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5dd461ccd29a13c0a4fd8d07')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]",
+        "[resourceId('Microsoft.ApiManagement/service/apis/schemas', parameters('ApimServiceName'), 'api2-staging', '1568048068575')]"
+      ]
+    },
+    {
+      "properties": {
+        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5dd461ccd29a13c0a4fd8d07-operationPolicy.xml')]",
+        "format": "rawxml-link"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5dd461ccd29a13c0a4fd8d07/policy')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/policies",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5dd461ccd29a13c0a4fd8d07')]"
+      ]
+    },
+    {
+      "properties": {
+        "displayName": "Courses"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5dd461ccd29a13c0a4fd8d07/courses')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations/tags",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis/operations', parameters('ApimServiceName'), 'api2-staging', '5dd461ccd29a13c0a4fd8d07')]"
+      ]
+    },
+    {
+      "properties": {
+        "templateParameters": [
+          {
+            "name": "course",
+            "type": "",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Creates a course favorite for the provided course and subscriber. ",
+        "request": {
+          "description": "The job alert to be created",
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 201,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Course Favorite - Create ",
+        "method": "POST",
+        "urlTemplate": "/courses/{course}/favorites"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5dd45fda8eb7478685e4d2a9')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]"
+      ]
+    },
+    {
+      "properties": {
         "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5dd45fda8eb7478685e4d2a9-operationPolicy.xml')]",
         "format": "rawxml-link"
       },
