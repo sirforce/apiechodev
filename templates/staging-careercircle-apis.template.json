@@ -7285,15 +7285,7 @@
           {
             "statusCode": 200,
             "description": "A collection of course variant.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n  {\n    \"courseVariantGuid\": \"504b1e0b-e3f9-4bc2-b12f-f0d131d00462\",\n    \"name\": \"Instructor Led\",\n    \"price\": 99.99\n  },\n  {\n    \"courseVariantGuid\": \"90bcf453-a903-4947-b31d-159ab64df201\",\n    \"name\": \"Self Paced\",\n    \"price\": 1399\n  }\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Course Variant - List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -7459,27 +7451,13 @@
                 "application/json"
               ]
             }
-          ],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "[\n\"13f8b896-053c-4c34-aed0-88b73cdf8826\",\n\"5c2235ed-30f3-4722-8a9e-d946df34ad66\"\n]",
-              "schemaId": "1568048068575",
-              "typeName": "Course Guid List"
-            }
           ]
         },
         "responses": [
           {
             "statusCode": 200,
             "description": "A list of related courses.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": ""
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -7565,15 +7543,7 @@
           {
             "statusCode": 200,
             "description": "A list of courses that are related to the specified job.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    {\n        \"courseGuid\": \"0f4028dc-ae2d-4b9c-b9af-108b4ed710f0\",\n        \"courseName\": \"Back End Foundations - Java\",\n        \"courseDescription\": \"Description:The Back End Foundations course is an introduction to creating server-side web applications and services. Students will learn how to create server-side APIs and render websites. Language-specific concepts will be covered, outlining the nuances associated with the elective framework.Objectives:Learn the basics of the request/response cycleLearn how to render HTML in response to a requestLearn how to render JSON or XML in response to a requestUnderstand how to build a REST endpointLearn how to interface with a database system from a web application\",\n        \"courseLogoUrl\": \"0F4028DC-AE2D-4B9C-B9AF-108B4ED710F0/Thumbnail.png\",\n        \"vendorName\": \"WozU\",\n        \"vendorLogoUrl\": \"00000000-0000-0000-0000-000000000001/woz.png\",\n        \"weightedSkillScore\": 0.16667\n    },\n    {\n        \"courseGuid\": \"42d621f5-ce18-4917-94f4-3b28c602ce3c\",\n        \"courseName\": \"Programming Foundations Java\",\n        \"courseDescription\": \"Description:The Programming Foundations course is an introduction to basic programming principles as expressed in the elective language. Students will develop a foundational knowledge of programming concepts, algorithms, design patterns, and theory. Language-specific concepts will be covered, outlining the nuances associated with the elective language.Objectives:Learn about common programming conceptsLearn the basics of iteration, decision making, and code organizationLearn the basics of Object-Oriented ProgrammingLearn how to handle errors and recover from failure statesLearn how to debug applications\",\n        \"courseLogoUrl\": \"42D621F5-CE18-4917-94F4-3B28C602CE3C/Thumbnail.png\",\n        \"vendorName\": \"WozU\",\n        \"vendorLogoUrl\": \"00000000-0000-0000-0000-000000000001/woz.png\",\n        \"weightedSkillScore\": 0.16667\n    }\n]   ",
-                "schemaId": "1568048068575",
-                "typeName": "Course - Detail"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -7667,27 +7637,13 @@
                 "application/json"
               ]
             }
-          ],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "[\n\"13B82157-B020-4BEB-B854-745429FA6220\",\n\"032DFAD8-EDF5-4A6C-B287-96A427A00670\",\n\"C517383F-0C70-4F65-85F6-F77B5E027FCE\",\n\"A23FA54A-B0C7-4B5A-BF36-2AFAA0C88926\",\n\"70658DF0-BBAA-4A34-8AA1-C86E8A7B2E8A\"\n]",
-              "schemaId": "1568048068575",
-              "typeName": "Job Guid List"
-            }
           ]
         },
         "responses": [
           {
             "statusCode": 200,
             "description": "A list of related courses.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": ""
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -7776,13 +7732,7 @@
           {
             "statusCode": 200,
             "description": "A list of courses that are related to the specified subscriber.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    {\n        \"courseGuid\": \"52d7719a-e77f-4e1f-ad38-f42b7fe327a0\",\n        \"courseName\": \"Back End Foundations - JavaScript\",\n        \"courseDescription\": \"Description:The Back End Foundations course is an introduction to creating server-side web applications and services. Students will learn how to create server-side APIs and render websites. Language-specific concepts will be covered, outlining the nuances associated with the elective framework.Objectives:Learn the basics of the request/response cycleLearn how to render HTML in response to a requestLearn how to render JSON or XML in response to a requestUnderstand how to build a REST endpointLearn how to interface with a database system from a web application\",\n        \"courseLogoUrl\": \"52D7719A-E77F-4E1F-AD38-F42B7FE327A0/Thumbnail.png\",\n        \"vendorName\": \"WozU\",\n        \"vendorLogoUrl\": \"00000000-0000-0000-0000-000000000001/woz.png\",\n        \"weightedSkillScore\": 4.00000\n    },\n    {\n        \"courseGuid\": \"3135241b-9270-4953-a625-6ed19c41a4f0\",\n        \"courseName\": \"Database\",\n        \"courseDescription\": \"Description:The Database Foundations course is an introduction to working with and designing databases. Students will develop a foundational knowledge of database concepts, theory, and an overview of the various implementations and architectures. Students will work with both relational (aka SQL) and non-relational (aka document) databases. Students will also work with database solutions that are outside the scope of the traditional relational database model, known collectively as ‘NoSQL.’Objectives:Learn how databases are used to store and retrieve dataLearn the basic Create Read Update and Delete operationsLearn how to use SQL to query a relational databaseLearn the differences between relational and document databasesLearn how to query a document database effectivelyLearn how to use NoSQL to designLearn how to implement and modify basic databasesLearn how to effectively interact to retrieve, store, and modify meaningful data\",\n        \"courseLogoUrl\": \"3135241B-9270-4953-A625-6ED19C41A4F0/Thumbnail.png\",\n        \"vendorName\": \"WozU\",\n        \"vendorLogoUrl\": \"00000000-0000-0000-0000-000000000001/woz.png\",\n        \"weightedSkillScore\": 3.00000\n    }\n]"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -7843,15 +7793,7 @@
         "request": {
           "description": "This is an education level.",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"name\" : \"Master’s Degree\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Education Level"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -8000,15 +7942,7 @@
           {
             "statusCode": 200,
             "description": "This is an education level.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n\t\"name\" : \"Master’s Degree\"\n}",
-                "schemaId": "1568048068575",
-                "typeName": "Education Level"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -8177,15 +8111,7 @@
         "description": "Retrieves a specific education level.",
         "request": {
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"name\" : \"Master’s Degree\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Education Level"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -8255,15 +8181,7 @@
           {
             "statusCode": 200,
             "description": "A list of all educational degree types.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    {\n        \"educationalDegreeTypeGuid\": \"a0030f15-23fd-452f-b8e0-88595a00bdda\",\n        \"degreeType\": \"Some High School\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"c4ea4cc3-0b32-4d50-8679-51e3154fe143\",\n        \"degreeType\": \"High School Diploma / GED\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"0cd59175-0fe8-4f53-b178-47df1268312d\",\n        \"degreeType\": \"Some College\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"8d618654-9370-4da8-865d-d67225bcf954\",\n        \"degreeType\": \"Associate's Degree\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"4683cc9e-11ff-46dc-bb92-44aea16dbfd0\",\n        \"degreeType\": \"Bachelor's Degree\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"400f8c90-0b83-4d48-bb27-95a4919269c2\",\n        \"degreeType\": \"Master's Degree\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"7c04cfc6-fa36-4ac6-8107-19f4f91e9934\",\n        \"degreeType\": \"Doctorate Degree\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"e7622232-06fc-46ec-8ed9-60a6427fec33\",\n        \"degreeType\": \"bachelors\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"df36252b-7049-40b0-8705-f3ea9036418a\",\n        \"degreeType\": \"\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"458ba1a6-212b-4e20-82d6-5d247891e87e\",\n        \"degreeType\": \"high school or equivalent\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"a7668f16-582a-4a10-86ae-2086a7b26c9b\",\n        \"degreeType\": \"certification\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"350cd3e8-418a-4638-83ae-2f9ac3979b70\",\n        \"degreeType\": \"masters\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"c777e17a-f655-4d34-baeb-93c965f45733\",\n        \"degreeType\": \"Not Specified\"\n    }\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Educational Degree Types - All"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -8323,15 +8241,7 @@
           {
             "statusCode": 200,
             "description": "A list of all educational degree types.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "\n    {\n        \"educationalDegreeTypeGuid\": \"400f8c90-0b83-4d48-bb27-95a4919269c2\",\n        \"degreeType\": \"Master's Degree\"\n    }",
-                "schemaId": "1568048068575",
-                "typeName": "Educational Degree Types - All"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -8423,15 +8333,7 @@
           {
             "statusCode": 200,
             "description": "A list of all educational degree types.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    {\n        \"educationalDegreeTypeGuid\": \"a0030f15-23fd-452f-b8e0-88595a00bdda\",\n        \"degreeType\": \"Some High School\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"c4ea4cc3-0b32-4d50-8679-51e3154fe143\",\n        \"degreeType\": \"High School Diploma / GED\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"0cd59175-0fe8-4f53-b178-47df1268312d\",\n        \"degreeType\": \"Some College\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"8d618654-9370-4da8-865d-d67225bcf954\",\n        \"degreeType\": \"Associate's Degree\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"4683cc9e-11ff-46dc-bb92-44aea16dbfd0\",\n        \"degreeType\": \"Bachelor's Degree\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"400f8c90-0b83-4d48-bb27-95a4919269c2\",\n        \"degreeType\": \"Master's Degree\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"7c04cfc6-fa36-4ac6-8107-19f4f91e9934\",\n        \"degreeType\": \"Doctorate Degree\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"e7622232-06fc-46ec-8ed9-60a6427fec33\",\n        \"degreeType\": \"bachelors\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"df36252b-7049-40b0-8705-f3ea9036418a\",\n        \"degreeType\": \"\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"458ba1a6-212b-4e20-82d6-5d247891e87e\",\n        \"degreeType\": \"high school or equivalent\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"a7668f16-582a-4a10-86ae-2086a7b26c9b\",\n        \"degreeType\": \"certification\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"350cd3e8-418a-4638-83ae-2f9ac3979b70\",\n        \"degreeType\": \"masters\"\n    },\n    {\n        \"educationalDegreeTypeGuid\": \"c777e17a-f655-4d34-baeb-93c965f45733\",\n        \"degreeType\": \"Not Specified\"\n    }\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Educational Degree Types - All"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -8477,15 +8379,7 @@
         "request": {
           "description": "This is an employment type.",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\t\t\n\t\"employmentTypeName\" : \"Full-Time\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Employment Type"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -8634,15 +8528,7 @@
           {
             "statusCode": 200,
             "description": "This is an employment type.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n\t\"employmentTypeName\" : \"Part-Time\"\n}",
-                "schemaId": "1568048068575",
-                "typeName": "Employment Type"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -8739,15 +8625,7 @@
           {
             "statusCode": 200,
             "description": "A list of employment types.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n\t{\n\t\t\"employmentTypeGuid\" : \"83EAD36C-6671-4256-9DD8-14DE593FDA85\",\n\t\t\"employmentTypeName\" : \"Full-Time\"\n\t},\n\t{\n\t\t\"employmentTypeGuid\" : \"A3607E54-F5F7-4873-B4E8-6E7AEC9198CD\",\n\t\t\"employmentTypeName\" : \"Part-Time\"\n\t}\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Employment Type List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -8812,15 +8690,7 @@
         "request": {
           "description": "An employment type.",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"employmentTypeName\" : \"Part-Time\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Employment Type"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -8884,15 +8754,7 @@
         "request": {
           "description": "Details about the subscriber to be created.",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"email\": \"testuser@gmail.com\",\n\t\"firstName\": \"test\",\n\t\"lastName\": \"user\",\n\t\"phoneNumber\": \"4105151071\",\n\t\"referrerUrl\": \"https://www.google.com?q=something\",\n\t\"jobReferralCode\": \"job code\",\n\t\"partnerGuid\": \"B946874A-B842-4F39-945A-9E1EE1121BC4\",\n\t\"isGatedDownload\": false,\n\t\"gatedDownloadFileUrl\": null,\n\t\"gatedDownloadMaxAttemptsAllowed\": 0\n}",
-              "schemaId": "1568048068575",
-              "typeName": "SubscriberDto"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -8937,15 +8799,7 @@
         "description": "Creates a company.",
         "request": {
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "\t{\n\t\t\"displayName\" : \"Entry Level\",\n\t\t\"code\" : \"EL\"\n\t}",
-              "schemaId": "1568048068575",
-              "typeName": "Experience Level"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -9094,15 +8948,7 @@
           {
             "statusCode": 200,
             "description": "This is a company.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n\t\"displayName\" : \"Entry Level\",\n\t\"code\" : \"EL\"\n}",
-                "schemaId": "1568048068575",
-                "typeName": "Experience Level"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -9199,15 +9045,7 @@
           {
             "statusCode": 200,
             "description": "",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n\t{\n\t\t\"experienceLevelGuid\" : \"83EAD36C-6671-4256-9DD8-14DE593FDA85\",\n\t\t\"displayName\" : \"Intern\",\n\t\t\"code\" : \"IN\"\n\t},\n\t{\n\t\t\"experienceLevelGuid\" : \"F105B4E4-643B-4BEB-BDF3-9595508C5620\",\n\t\t\"displayName\" : \"Entry Level\",\n\t\t\"code\" : \"EL\"\n\t}\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Experience Level List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -9271,15 +9109,7 @@
         "description": "Retrieves a specific experience level.",
         "request": {
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"displayName\" : \"Entry Level\",\n\t\"code\" : \"EL\"\n}\n",
-              "schemaId": "1568048068575",
-              "typeName": "Experience Level"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -9343,15 +9173,7 @@
         "request": {
           "description": "Creates an industry.",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"industryName\" : \"Management\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Industry"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -9605,15 +9427,7 @@
           {
             "statusCode": 200,
             "description": "A list of industries.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n\t{\n\t\t\"industryGuid\" : \"99B6A614-1330-4D4F-83E5-946C9040CA71\",\n\t\t\"industryName\" : \"Life, Physical, and Social Science\"\n\t},\n\t{\n\t\t\"industryGuid\" : \"805B7834-2B82-44AA-BBDE-0A3DD8171E37\",\n\t\t\"industryName\" : \"Management\"\n\t}\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Industry List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -9678,15 +9492,7 @@
         "request": {
           "description": "The industry to update.",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"industryGuid\" : \"805B7834-2B82-44AA-BBDE-0A3DD8171E37\",\n\t\"industryName\" : \"Management\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Industry"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -9819,15 +9625,7 @@
         "request": {
           "description": "This is a job.",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"status\": \"draft\",\n\t\"jobPostingGuid\": \"a1ec6538-5ccb-4cb2-9af5-aa34db854fc8\",\n\t\"postingDateUTC\": \"2019-07-02T17:15:02.0151343Z\",\n\t\"postingExpirationDateUTC\": \"2020-09-03T00:49:56.0057777Z\",\n\t\"applicationDeadlineUTC\": \"0001-01-01T00:00:00Z\",\n\t\"recruiterGuid\": \"643bb54d-9a8f-4a04-bda4-2deb69c7fef2\",\n\t\"companyGuid\": \"7e1d8ab0-3440-4773-88b6-2722da9f2fed\",\n\t\"industryGuid\": \"7EAB3D86-81D0-4631-8CCE-A57BAA672367\",\n\t\"jobCategoryGuid\": \"7EAB3D86-81D0-4631-8CCE-A57BAA672367\",\n\t\"title\": \"CNC Trainee\",\n\t\"description\": \"<br><br>Aerotek is now hiring for 1st and 2nd shift CNC trainees!<br><br> <br><br>These are long term opportunities with training and overtime available!<br><br> <br><br>Job duties:<br><br>- operate both CNC mills and lathes<br><br>- perform quality inspection of parts<br><br>- load and unload parts<br><br>- use hand tools such as grinders<br><br> <br><br>Individuals with a mechanical aptitude or previous experience who are interested in learning this skill can apply by calling 3096614914 or email at <br><br> <br><br> <br><br> <br><br><strong>About Aerotek:</strong><br><br><strong>We know that a company's success starts with its employees. We also know that an individual's success starts with the right career opportunity. As a Best of Staffing® Client and Talent leader, Aerotek's people-focused approach yields competitive advantage for our clients and rewarding careers for our contract employees. Since 1983, Aerotek has grown to become a leader in recruiting and staffing services. With more than 250 non-franchised offices, Aerotek's 8,000 internal employees serve more than 300,000 contract employees and 18,000 clients every year. Aerotek is an Allegis Group company, the global leader in talent solutions. Learn more at Aerotek.com.</strong><br><br><b>The company is an equal opportunity employer and will consider all applications without regards to race, sex, age, color, religion, national origin, veteran status, disability, sexual orientation, gender identity, genetic information or any characteristic protected by law.</b><br><br><b>If you would like to request a reasonable accommodation, such as the modification or adjustment of the job application process or interviewing process due to a disability, please call 888-237-6835 or email accommodation@aerotek .com for other accommodation options. However, if you have questions about this position, please contact the Recruiter located at the bottom of the job posting. The Recruiter is the sole point of contact for questions about this position.</b>\",\n\t\"securityClearanceGuid\": \"E9EDFD4D-3791-4660-96EC-45C3D8FF18C1\",\n\t\"employmentTypeGuid\": \"D1179F10-F629-4FF2-B00B-C01557283A82\",\n\t\"h2Visa\": false,\n\t\"isAgencyJobPosting\": true,\n\t\"telecommutePercentage\": 0,\n\t\"compensation\": 0,\n\t\"compensationTypeGuid\": \"0ACCE599-E528-4EDD-9B6E-1D52C910F9D8\",\n\t\"thirdPartyApply\": true,\n\t\"thirdPartyApplicationUrl\": \"https://www.aerotek.com/en-US/job/J3T2XQ71X8RX3DR1P6S\",\n\t\"country\": \"US\",\n\t\"city\": \"Peoria\",\n\t\"province\": \"IL\",\n\t\"postalCode\": 61525,\n\t\"streetAddress\": \"123 Main St\",\n\t\"experienceLevelGuid\": \"91C15A9E-055D-4E14-BA4C-BD2F3AC28CA1\",\n\t\"educationLevel\": \"36068679-6111-4160-8310-71C009414880\",\n\t\"jobPostingSkillGuids\": [\n\t\t\"17d2f8ad-e9b2-4363-b361-e6f0aaa6d85d\",\n\t\t\"21a445e1-269d-45e2-8543-6ce17ad67e5e\",\n\t\t\"375f6fba-32ac-4a33-97d8-019b4b9c748e\",\n\t\t\"8258224a-195d-48ae-984c-b1326db95262\"\n\t],\n\t\"isPrivate\": 0,\n\t\"thirdPartyIdentifier\": \"6862906\",\n\t\"metaDescription\": \"Search for CNC Trainee jobs near Peoria, IL with CareerCircle and find your next great opportunity today.\",\n\t\"metaTitle\": \"CNC Trainee\",\n\t\"metaKeywords\": \"Peoria  IL Employment, Work, CNC Trainee Jobs , lathes Jobs, mechanical aptitude Jobs, learning Jobs, mills Jobs\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Job Admin"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -9976,15 +9774,7 @@
           {
             "statusCode": 200,
             "description": "This is a company.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n\t\"status\": \"draft\",\n\t\"jobPostingGuid\": \"a1ec6538-5ccb-4cb2-9af5-aa34db854fc8\",\n\t\"postingDateUTC\": \"2019-07-02T17:15:02.0151343Z\",\n\t\"postingExpirationDateUTC\": \"2020-09-03T00:49:56.0057777Z\",\n\t\"applicationDeadlineUTC\": \"0001-01-01T00:00:00Z\",\n\t\"recruiterGuid\": \"643bb54d-9a8f-4a04-bda4-2deb69c7fef2\",\n\t\"companyGuid\": \"7e1d8ab0-3440-4773-88b6-2722da9f2fed\",\n\t\"industryGuid\": \"7EAB3D86-81D0-4631-8CCE-A57BAA672367\",\n\t\"jobCategoryGuid\": \"7EAB3D86-81D0-4631-8CCE-A57BAA672367\",\n\t\"title\": \"CNC Trainee\",\n\t\"description\": \"<br><br>Aerotek is now hiring for 1st and 2nd shift CNC trainees!<br><br> <br><br>These are long term opportunities with training and overtime available!<br><br> <br><br>Job duties:<br><br>- operate both CNC mills and lathes<br><br>- perform quality inspection of parts<br><br>- load and unload parts<br><br>- use hand tools such as grinders<br><br> <br><br>Individuals with a mechanical aptitude or previous experience who are interested in learning this skill can apply by calling 3096614914 or email at <br><br> <br><br> <br><br> <br><br><strong>About Aerotek:</strong><br><br><strong>We know that a company's success starts with its employees. We also know that an individual's success starts with the right career opportunity. As a Best of Staffing® Client and Talent leader, Aerotek's people-focused approach yields competitive advantage for our clients and rewarding careers for our contract employees. Since 1983, Aerotek has grown to become a leader in recruiting and staffing services. With more than 250 non-franchised offices, Aerotek's 8,000 internal employees serve more than 300,000 contract employees and 18,000 clients every year. Aerotek is an Allegis Group company, the global leader in talent solutions. Learn more at Aerotek.com.</strong><br><br><b>The company is an equal opportunity employer and will consider all applications without regards to race, sex, age, color, religion, national origin, veteran status, disability, sexual orientation, gender identity, genetic information or any characteristic protected by law.</b><br><br><b>If you would like to request a reasonable accommodation, such as the modification or adjustment of the job application process or interviewing process due to a disability, please call 888-237-6835 or email accommodation@aerotek .com for other accommodation options. However, if you have questions about this position, please contact the Recruiter located at the bottom of the job posting. The Recruiter is the sole point of contact for questions about this position.</b>\",\n\t\"securityClearanceGuid\": \"E9EDFD4D-3791-4660-96EC-45C3D8FF18C1\",\n\t\"employmentTypeGuid\": \"D1179F10-F629-4FF2-B00B-C01557283A82\",\n\t\"h2Visa\": false,\n\t\"isAgencyJobPosting\": true,\n\t\"telecommutePercentage\": 0,\n\t\"compensation\": 0,\n\t\"compensationTypeGuid\": \"0ACCE599-E528-4EDD-9B6E-1D52C910F9D8\",\n\t\"thirdPartyApply\": true,\n\t\"thirdPartyApplicationUrl\": \"https://www.aerotek.com/en-US/job/J3T2XQ71X8RX3DR1P6S\",\n\t\"country\": \"US\",\n\t\"city\": \"Peoria\",\n\t\"province\": \"IL\",\n\t\"postalCode\": 61525,\n\t\"streetAddress\": \"123 Main St\",\n\t\"experienceLevelGuid\": \"91C15A9E-055D-4E14-BA4C-BD2F3AC28CA1\",\n\t\"educationLevel\": \"36068679-6111-4160-8310-71C009414880\",\n\t\"jobPostingSkillGuids\": [\n\t\t\"17d2f8ad-e9b2-4363-b361-e6f0aaa6d85d\",\n\t\t\"21a445e1-269d-45e2-8543-6ce17ad67e5e\",\n\t\t\"375f6fba-32ac-4a33-97d8-019b4b9c748e\",\n\t\t\"8258224a-195d-48ae-984c-b1326db95262\"\n\t],\n\t\"isPrivate\": 0,\n\t\"thirdPartyIdentifier\": \"6862906\",\n\t\"metaDescription\": \"Search for CNC Trainee jobs near Peoria, IL with CareerCircle and find your next great opportunity today.\",\n\t\"metaTitle\": \"CNC Trainee\",\n\t\"metaKeywords\": \"Peoria  IL Employment, Work, CNC Trainee Jobs , lathes Jobs, mechanical aptitude Jobs, learning Jobs, mills Jobs\"\n}",
-                "schemaId": "1568048068575",
-                "typeName": "Job Admin"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
