@@ -12,11 +12,11 @@
   "resources": [
     {
       "properties": {
-        "value": "[concat(parameters('PolicyXMLBaseUrl'), '/globalServicePolicy.xml')]",
-        "format": "rawxml-link"
+        "displayName": "API2-Staging",
+        "versioningScheme": "Segment"
       },
-      "name": "[concat(parameters('ApimServiceName'), '/policy')]",
-      "type": "Microsoft.ApiManagement/service/policies",
+      "name": "[concat(parameters('ApimServiceName'), '/f5663519-3e82-4dd6-80f4-e61eca773633')]",
+      "type": "Microsoft.ApiManagement/service/apiVersionSets",
       "apiVersion": "2019-01-01"
     }
   ]

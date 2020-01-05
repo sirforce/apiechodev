@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "ApimServiceName": {
+      "type": "string"
+    },
+    "PolicyXMLBaseUrl": {
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "properties": {
+        "description": "Auth0 API Authentication",
+        "authorizationMethods": [
+          "GET",
+          "POST"
+        ],
+        "clientAuthenticationMethod": [
+          "Basic"
+        ],
+        "tokenBodyParameters": [],
+        "tokenEndpoint": "https://login-staging.careercircle.com/oauth/token",
+        "supportState": true,
+        "bearerTokenSendingMethods": [
+          "authorizationHeader"
+        ],
+        "clientSecret": "4ZlVGT7eylNhiKf-4RXtaoBG39ivAGlwFDbPyzO0_5_T8kjOadRrrH5-NgpzHzr3",
+        "displayName": "staging-careercircle Auth0",
+        "clientRegistrationEndpoint": "https://placeholder.contoso.com",
+        "authorizationEndpoint": "https://login-staging.careercircle.com/authorize?response_type=code&client_id=I3lWkU1xEQgMOZNjPwXCPE73RASkDuYo&redirect_uri=https://staging-careercircle.portal.azure-api.net/docs/services/staging-careercircle-auth0/console/oauth2/authorizationcode/callback&audience=https://staging-careercircle.azure-api.net",
+        "grantTypes": [
+          "authorizationCode"
+        ],
+        "clientId": "I3lWkU1xEQgMOZNjPwXCPE73RASkDuYo"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/staging-careercircle-auth0')]",
+      "type": "Microsoft.ApiManagement/service/authorizationServers",
+      "apiVersion": "2019-01-01"
+    }
+  ]
+}

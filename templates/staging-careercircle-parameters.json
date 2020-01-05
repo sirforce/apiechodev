@@ -3,7 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "ApimServiceName": {
-      "value": "careercircle-prod"
+      "value": "dev-careercircle"
+    },
+    "LinkedTemplatesBaseUrl": {
+      "value": "https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/"
+    },
+    "PolicyXMLBaseUrl": {
+      "value": "https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/policies/"
     }
   },
   "resources": []

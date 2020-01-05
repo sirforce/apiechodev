@@ -1,0 +1,78 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "ApimServiceName": {
+      "type": "string"
+    },
+    "PolicyXMLBaseUrl": {
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "properties": {
+        "displayName": "Education Levels"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/education-levels')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Employment Types"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/employment-types')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Experience Levels"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/experience-levels')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Industries"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/industries')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Job"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/job')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Jobs"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/jobs')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "subscriber"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/subscriber')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "displayName": "Subscribers"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/subscribers')]",
+      "type": "Microsoft.ApiManagement/service/tags",
+      "apiVersion": "2019-01-01"
+    }
+  ]
+}
