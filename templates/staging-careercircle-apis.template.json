@@ -5339,15 +5339,7 @@
           {
             "statusCode": 200,
             "description": "Contact types for the contact us page. ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n  {\n    \"contactTypeGuid\" : \"8ece37cd-2380-4629-945a-0abd81130b6a\",\n    \"name\" : \"General\"\n  },\n  {\n    \"contactTypeGuid\" : \"e8647d8f-3d8b-4f8f-a4d5-5b8b5278b686\",\n    \"name\" : \"Partner\"\n  },\n  {\n    \"contactTypeGuid\" : \"b871a68b-734e-447e-aafb-d4b3cae88f73\",\n    \"name\" : \"Career Paths \"\n  }\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Contact Types - List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
