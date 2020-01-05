@@ -4433,15 +4433,7 @@
           {
             "statusCode": 200,
             "description": "The response represents the recommended courses a subscriber should enroll in based on the their skills.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    {\n        \"skillGuid\": \"37ba1275-3b0d-4cce-9144-6cbbf51c8c42\",\n        \"name\": \"database creation\"\n    },\n    {\n        \"skillGuid\": \"049c22f2-6869-461d-8ba6-6435f85a5c7e\",\n        \"name\": \"database lock\"\n    },\n    {\n        \"skillGuid\": \"2da48812-59ea-4642-b977-9da1766a71d9\",\n        \"name\": \"database management systems\"\n    },\n    {\n        \"skillGuid\": \"bb88605f-80e6-446c-857c-54ab7af1ee7c\",\n        \"name\": \"database system\"\n    },\n    {\n        \"skillGuid\": \"aacd4c0f-a058-4325-9c64-e2074eae5464\",\n        \"name\": \"databox\"\n    },\n    {\n        \"skillGuid\": \"a652cd61-29c2-4272-bfb7-f04564fbb3a1\",\n        \"name\": \"database analysis\"\n    }\n]",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
