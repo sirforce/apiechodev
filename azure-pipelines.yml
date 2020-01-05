@@ -21,7 +21,6 @@ steps:
     templateLocation: 'Linked artifact'
     csmFile: 'templates/staging-careercircle-master.template.json'
     csmParametersFile: 'templates/staging-careercircle-parameters.json'
-    overrideParameters: '-ApimServiceName careercircle'
     deploymentMode: 'Validation'
 
 - task: PublishBuildArtifacts@1
