@@ -4267,15 +4267,7 @@
           {
             "statusCode": 200,
             "description": "The response represents the recommended courses a subscriber should enroll in based on the their skills.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n        \"courseLevelGuid\": \"22e6a3bb-1184-42ef-a50f-1455760772f2\",\n        \"name\": \"Intermediate\",\n        \"description\": \"Course has intermediate level of difficulty\",\n        \"sortOrder\": 20\n    }",
-                "schemaId": "1568048068575",
-                "typeName": "Career Path - Detail"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -6811,15 +6803,7 @@
           {
             "statusCode": 200,
             "description": "This is a course level.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n\t\"courseLevelGuid\": \"22e6a3bb-1184-42ef-a50f-1455760772f2\",\n\t\"name\": \"Intermediate\",\n\t\"description\": \"Course has intermediate level of difficulty\",\n\t\"sortOrder\": 20\n}\n",
-                "schemaId": "1568048068575",
-                "typeName": "Course Level"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
