@@ -3440,15 +3440,7 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n    \"cuisine\",\n    \"dinner\",\n    \"food\"\n}",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           }
         ],
         "displayName": "Blog - Category Slugs",
