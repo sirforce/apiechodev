@@ -35,7 +35,7 @@
           "https"
         ]
       },
-      "name": "[concat(parameters('ApimServiceName'), '/api2-staging')]",
+      "name": "[concat(parameters('ApimServiceName'),  '/api2-staging')]",
       "type": "Microsoft.ApiManagement/service/apis",
       "apiVersion": "2019-01-01",
       "dependsOn": []
