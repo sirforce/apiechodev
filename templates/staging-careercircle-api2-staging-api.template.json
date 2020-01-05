@@ -3444,7 +3444,7 @@
             "representations": [
               {
                 "contentType": "application/json",
-                "sample": "[\n    \"cuisine\",\n    \"dinner\",\n    \"food\"\n]",
+                "sample": "{\n    \"cuisine\",\n    \"dinner\",\n    \"food\"\n}",
                 "schemaId": "1568048068575",
                 "typeName": ""
               }
