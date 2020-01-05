@@ -19,7 +19,33 @@ steps:
     resourceGroupName: 'CareerCircleWeb'
     location: 'South Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/staging-careercircle-echo-api-api.template.json'
+    csmFileLink: 'https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/staging-careercircle-api2-staging--A1-api.template.json.json'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/staging-careercircle-parameters.json'
+    deploymentMode: 'Validation'
+
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'Digital BT(933642d7-459a-499f-acc7-0d9a14ecf604)'
+    subscriptionId: '933642d7-459a-499f-acc7-0d9a14ecf604'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'CareerCircleWeb'
+    location: 'South Central US'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/staging-careercircle-api2-staging--A2-api.template.json.json'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/staging-careercircle-parameters.json'
+    deploymentMode: 'Validation'
+
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'Digital BT(933642d7-459a-499f-acc7-0d9a14ecf604)'
+    subscriptionId: '933642d7-459a-499f-acc7-0d9a14ecf604'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'CareerCircleWeb'
+    location: 'South Central US'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/staging-careercircle-api2-staging--A3-api.template.json.json'
     csmParametersFileLink: 'https://raw.githubusercontent.com/sirforce/apiechodev/master/templates/staging-careercircle-parameters.json'
     deploymentMode: 'Validation'
 
