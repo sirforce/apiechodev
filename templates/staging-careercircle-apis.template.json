@@ -3957,6 +3957,54 @@
     },
     {
       "properties": {
+        "templateParameters": [
+          {
+            "name": "course",
+            "type": "",
+            "required": true,
+            "values": []
+          }
+        ],
+        "description": "Creates a course favorite for the provided course and subscriber. ",
+        "request": {
+          "description": "The job alert to be created",
+          "queryParameters": [],
+          "headers": [],
+          "representations": []
+        },
+        "responses": [
+          {
+            "statusCode": 201,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 400,
+            "description": "",
+            "headers": [],
+            "representations": []
+          },
+          {
+            "statusCode": 401,
+            "description": "",
+            "headers": [],
+            "representations": []
+          }
+        ],
+        "displayName": "Course Favorite - Create ",
+        "method": "POST",
+        "urlTemplate": "/courses/{course}/favorites"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/api2-staging/5dd45fda8eb7478685e4d2a9')]",
+      "type": "Microsoft.ApiManagement/service/apis/operations",
+      "apiVersion": "2019-01-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service/apis', parameters('ApimServiceName'), 'api2-staging')]"
+      ]
+    },
+    {
+      "properties": {
         "value": "[concat(parameters('PolicyXMLBaseUrl'), '/5dd45fda8eb7478685e4d2a9-operationPolicy.xml')]",
         "format": "rawxml-link"
       },
