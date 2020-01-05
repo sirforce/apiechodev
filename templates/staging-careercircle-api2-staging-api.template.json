@@ -3391,15 +3391,7 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"\n]",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           }
         ],
         "displayName": "Blog - Author Slugs",
@@ -3554,15 +3546,7 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"\n]",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           }
         ],
         "displayName": "Blog - List",
@@ -3611,15 +3595,7 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"\n]",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           }
         ],
         "displayName": "Blog - List By Author",
@@ -3667,15 +3643,7 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"\n]",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           }
         ],
         "displayName": "Blog - List By Category",
@@ -3724,15 +3692,7 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"\n]",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           }
         ],
         "displayName": "Blog - List By Tag",
@@ -3773,15 +3733,7 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "text/html",
-                "sample": "\"2\"",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           }
         ],
         "displayName": "Blog - Page Count",
@@ -3830,15 +3782,7 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    \"jon-foley\",\n    \"Jo Lene\",\n    \"Mike Mcster\"\n]",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           }
         ],
         "displayName": "Blog - Query",
@@ -3879,15 +3823,7 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n    \"?xml\": {\n        \"@version\": \"1.0\",\n        \"@encoding\": \"UTF-8\"\n    },\n    \"urlset\": {\n        \"@xmlns\": \"http://www.sitemaps.org/schemas/sitemap/0.9\",\n        \"@xmlns:xsi\": \"http://www.w3.org/2001/XMLSchema-instance\",\n        \"@xsi:schemaLocation\": \"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\",\n        \"url\": [\n            {\n                \"loc\": \"http://localhost:5000/blog/post/hey-a-test-post\"\n            },\n            {\n                \"loc\": \"http://localhost:5000/blog/post/ians-test-blog-post\"\n            }\n        ]\n    }\n}",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           }
         ],
         "displayName": "Blog - Sitemap",
@@ -3976,15 +3912,7 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           }
         ],
         "displayName": "Butter Cache - Clear",
@@ -4032,15 +3960,7 @@
           {
             "statusCode": 200,
             "description": " ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           }
         ],
         "displayName": "Butter Cache - Clear Page",
@@ -4081,15 +4001,7 @@
           {
             "statusCode": 200,
             "description": "This is a company.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n    \"careercircle_public_site_navigation\": [\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": false,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"CareerCirclePublicSiteNavigation\",\n            \"url\": \"/Home/Index\",\n            \"child_pages\": [\n                {\n                    \"role\": {},\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": false,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"Career Opportunities\",\n                    \"url\": \"/Jobs\",\n                    \"child_pages\": []\n                },\n                {\n                    \"role\": {},\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": false,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"Career Services\",\n                    \"url\": \"/career-services\",\n                    \"child_pages\": []\n                },\n                {\n                    \"role\": {},\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": false,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"Courses\",\n                    \"url\": \"/Topics\",\n                    \"child_pages\": []\n                },\n                {\n                    \"role\": {},\n                    \"badge_text\": \"NEW\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": false,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"Offers\",\n                    \"url\": \"/Home/Offers\",\n                    \"child_pages\": []\n                },\n                {\n                    \"role\": {},\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": false,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"Blog\",\n                    \"url\": \"/Blog\",\n                    \"child_pages\": []\n                },\n                {\n                    \"role\": {},\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": false,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"About\",\n                    \"url\": \"/Home/About\",\n                    \"child_pages\": []\n                },\n                {\n                    \"role\": {},\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"fa fa-user-circle\",\n                    \"needs_authentication\": true,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"My Circle\",\n                    \"url\": \"/Home/Profile\",\n                    \"child_pages\": [\n                        {\n                            \"role\": {},\n                            \"badge_text\": \"\",\n                            \"font_awesome_icon\": \"\",\n                            \"needs_authentication\": true,\n                            \"new_section\": false,\n                            \"javascript_class\": \"\",\n                            \"label\": \"My Account\",\n                            \"url\": \"/Home/Profile\",\n                            \"child_pages\": []\n                        },\n                        {\n                            \"role\": {},\n                            \"badge_text\": \"\",\n                            \"font_awesome_icon\": \"\",\n                            \"needs_authentication\": true,\n                            \"new_section\": false,\n                            \"javascript_class\": \"\",\n                            \"label\": \"My Jobs\",\n                            \"url\": \"/user/jobs\",\n                            \"child_pages\": []\n                        },\n                        {\n                            \"role\": {},\n                            \"badge_text\": \"\",\n                            \"font_awesome_icon\": \"\",\n                            \"needs_authentication\": true,\n                            \"new_section\": false,\n                            \"javascript_class\": \"\",\n                            \"label\": \"My Job Alerts\",\n                            \"url\": \"/user/job-alerts\",\n                            \"child_pages\": []\n                        },\n                        {\n                            \"role\": {\n                                \"role\": \"Recruiter\",\n                                \"role_policy\": \"IsRecruiterPolicy\"\n                            },\n                            \"badge_text\": \"\",\n                            \"font_awesome_icon\": \"\",\n                            \"needs_authentication\": true,\n                            \"new_section\": false,\n                            \"javascript_class\": \"\",\n                            \"label\": \"Talent\",\n                            \"url\": \"/Talent/Subscribers\",\n                            \"child_pages\": []\n                        },\n                        {\n                            \"role\": {\n                                \"role\": \"Administrator\",\n                                \"role_policy\": \"IsCareerCircleAdmin\"\n                            },\n                            \"badge_text\": \"\",\n                            \"font_awesome_icon\": \"\",\n                            \"needs_authentication\": true,\n                            \"new_section\": false,\n                            \"javascript_class\": \"\",\n                            \"label\": \"Admin\",\n                            \"url\": \"/Admin/Dashboard\",\n                            \"child_pages\": []\n                        },\n                        {\n                            \"role\": {},\n                            \"badge_text\": \"\",\n                            \"font_awesome_icon\": \"\",\n                            \"needs_authentication\": true,\n                            \"new_section\": true,\n                            \"javascript_class\": \"\",\n                            \"label\": \"Sign out\",\n                            \"url\": \"/Session/Signout\",\n                            \"child_pages\": []\n                        }\n                    ]\n                }\n            ]\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"NEW\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": false,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"Offers\",\n            \"url\": \"/Home/Offers\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": false,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"About\",\n            \"url\": \"/Home/About\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"fa fa-user-circle\",\n            \"needs_authentication\": true,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"My Circle\",\n            \"url\": \"/Home/Profile\",\n            \"child_pages\": [\n                {\n                    \"role\": {},\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": true,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"My Account\",\n                    \"url\": \"/Home/Profile\",\n                    \"child_pages\": []\n                },\n                {\n                    \"role\": {},\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": true,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"My Jobs\",\n                    \"url\": \"/user/jobs\",\n                    \"child_pages\": []\n                },\n                {\n                    \"role\": {},\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": true,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"My Job Alerts\",\n                    \"url\": \"/user/job-alerts\",\n                    \"child_pages\": []\n                },\n                {\n                    \"role\": {\n                        \"role\": \"Recruiter\",\n                        \"role_policy\": \"IsRecruiterPolicy\"\n                    },\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": true,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"Talent\",\n                    \"url\": \"/Talent/Subscribers\",\n                    \"child_pages\": []\n                },\n                {\n                    \"role\": {\n                        \"role\": \"Administrator\",\n                        \"role_policy\": \"IsCareerCircleAdmin\"\n                    },\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": true,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"Admin\",\n                    \"url\": \"/Admin/Dashboard\",\n                    \"child_pages\": []\n                },\n                {\n                    \"role\": {},\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": true,\n                    \"new_section\": true,\n                    \"javascript_class\": \"\",\n                    \"label\": \"Sign out\",\n                    \"url\": \"/Session/Signout\",\n                    \"child_pages\": []\n                }\n            ]\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": true,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"My Account\",\n            \"url\": \"/Home/Profile\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {\n                \"role\": \"Recruiter\",\n                \"role_policy\": \"IsRecruiterPolicy\"\n            },\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": true,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"Talent\",\n            \"url\": \"/Talent/Subscribers\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {\n                \"role\": \"Administrator\",\n                \"role_policy\": \"IsCareerCircleAdmin\"\n            },\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": true,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"Admin\",\n            \"url\": \"/Admin/Dashboard\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": true,\n            \"new_section\": true,\n            \"javascript_class\": \"\",\n            \"label\": \"Sign out\",\n            \"url\": \"/Session/Signout\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": false,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"FAQ\",\n            \"url\": \"/Home/FAQ\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": false,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"Courses\",\n            \"url\": \"/Topics\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": false,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"Contact\",\n            \"url\": \"/Home/Contact\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": false,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"Career Opportunities\",\n            \"url\": \"/Jobs\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": false,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"Browse Jobs\",\n            \"url\": \"/Browse-Jobs\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": false,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"Jobs\",\n            \"url\": \"/Jobs\",\n            \"child_pages\": [\n                {\n                    \"role\": {},\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": false,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"Career Opportunities\",\n                    \"url\": \"/Jobs\",\n                    \"child_pages\": []\n                },\n                {\n                    \"role\": {},\n                    \"badge_text\": \"\",\n                    \"font_awesome_icon\": \"\",\n                    \"needs_authentication\": false,\n                    \"new_section\": false,\n                    \"javascript_class\": \"\",\n                    \"label\": \"Browse Jobs\",\n                    \"url\": \"/Browse-Jobs\",\n                    \"child_pages\": []\n                }\n            ]\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": true,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"My Jobs\",\n            \"url\": \"/user/jobs\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": false,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"Notifications\",\n            \"url\": \"/Dashboard\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": true,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"My Job Alerts\",\n            \"url\": \"/user/job-alerts\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": false,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"Blog\",\n            \"url\": \"/Blog\",\n            \"child_pages\": []\n        },\n        {\n            \"role\": {},\n            \"badge_text\": \"\",\n            \"font_awesome_icon\": \"\",\n            \"needs_authentication\": false,\n            \"new_section\": false,\n            \"javascript_class\": \"\",\n            \"label\": \"Career Services\",\n            \"url\": \"/career-services\",\n            \"child_pages\": []\n        }\n    ]\n}",
-                "schemaId": "1568048068575",
-                "typeName": " "
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 404,
@@ -4136,15 +4048,7 @@
           {
             "statusCode": 200,
             "description": "This is a company.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n    \"data\": {\n        \"slug\": \"traitify\",\n        \"fields\": {\n            \"partner\": {\n                \"description\": \"World's fastest personality assessment. Scientifically-backed and user-focused. Designed to quickly and accurately collect personality data.\",\n                \"name\": \"Traitify\",\n                \"guid\": \"692B5E6C-140B-4F2E-BD06-4C03BA40AD6A\"\n            },\n            \"title\": \"CareerCircle Personality Assessment\",\n            \"meta_description\": \"Free personality assessment using Traitify\",\n            \"meta_keywords\": \"traitify personality assessment career \",\n            \"ogtitle\": \"Traitify Personality Assessment\",\n            \"ogdescription\": \"A page containing access to Traitify personality assessment \",\n            \"ogimage\": \"https://cdn.buttercms.com/uzUA3xukRTeWTIj9euET\",\n            \"hero_header\": \"Take our personality assessment\",\n            \"hero_image\": \"https://cdn.buttercms.com/uzUA3xukRTeWTIj9euET\",\n            \"hero_description\": \"<p><iframe width=\\\"640\\\" height=\\\"360\\\" src=\\\"https://player.vimeo.com/video/369366274\\\" frameborder=\\\"0\\\" allow=\\\"autoplay; fullscreen\\\" allowfullscreen=\\\"allowfullscreen\\\"></iframe> What seems like magic is just good science. Your brain processes images 60,000 times faster than words! So we're introducing an image-based test powered by Traitify that collects hundreds of personality data points 30x faster than comparable assessments, and via mobile phone&ndash;in 90 seconds. All without compromising reliability and validity.</p>\",\n            \"modal_header\": \"Thank you!\",\n            \"modal_text\": \"<p>Thank you for completing the assessment! The results will be emailed to you. You will need to verify your email before logging in for the first time.</p>\",\n            \"form_header\": \"Enter your info to get started\",\n            \"form_text\": \"We will not share this information with anyone. \",\n            \"form_submit_button_text\": \"Start the assessment \",\n            \"existing_user_submit_button_text\": \"Click here to begin the assessment\",\n            \"signup_form_image_banner\": \"https://cdn.buttercms.com/l6Bd0dElSdqYDy7G86PH\",\n            \"signup_form_header\": \"Enter a password\",\n            \"signup_form_text\": \"This is where to enter password\",\n            \"signup_form_submit_button_text\": \"Click here to sign up!\",\n            \"signup_hero_title\": \"Sign up for a CareerCircle account to get your full result!\",\n            \"signup_hero_content\": \"<p>Get connected with courses that match your personality!</p>\",\n            \"result_footer_text\": \"<p>Create an account to get your full results today!&nbsp;</p>\\n<p><a href=\\\"#top\\\">Jump to top of page</a></p>\"\n        }\n    }\n}",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 404,
@@ -4253,15 +4157,7 @@
         "request": {
           "description": "Request Payload",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n    \"company\" : \"Allegis Group\",\n    \"startDate\" : \"9/1/2018\",\n    \"endDate\" : null,\n    \"jobTitle\": \"Senior Software Engineer\",\n    \"jobDescription\" : \"Lead team of developers\",\n    \"rate\" : 60.25,\n    \"compensationTypeGuid\" : \"f3061c0f-41ee-4bb1-b655-328f22653ef3\",\n    \"isCurrent\": true\n}",
-              "schemaId": "1568048068575",
-              "typeName": ""
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -4313,15 +4209,7 @@
         "request": {
           "description": "Request Payload",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n    \"company\" : \"Allegis Group\",\n    \"startDate\" : \"9/1/2018\",\n    \"endDate\" : null,\n    \"jobTitle\": \"Senior Software Engineer\",\n    \"jobDescription\" : \"Lead team of developers\",\n    \"rate\" : 60.25,\n    \"compensationTypeGuid\" : \"f3061c0f-41ee-4bb1-b655-328f22653ef3\",\n    \"isCurrent\": true\n}",
-              "schemaId": "1568048068575",
-              "typeName": ""
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -4403,15 +4291,7 @@
         "request": {
           "description": "Request Payload",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n    \"company\" : \"Allegis Group\",\n    \"startDate\" : \"9/1/2018\",\n    \"endDate\" : null,\n    \"jobTitle\": \"Senior Software Engineer\",\n    \"jobDescription\" : \"Lead team of developers\",\n    \"rate\" : 60.25,\n    \"compensationTypeGuid\" : \"f3061c0f-41ee-4bb1-b655-328f22653ef3\",\n    \"isCurrent\": true\n}",
-              "schemaId": "1568048068575",
-              "typeName": ""
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -4469,15 +4349,7 @@
           {
             "statusCode": 200,
             "description": "",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": " [{\n        \"companyGuid\": \"b0eb0b98-2a67-4581-abc4-d5d8c1d71060\",\n        \"companyName\": \"Test Group\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    },\n    {\n        \"companyGuid\": \"4cd09e0a-fcec-4a05-a791-d91acb5906da\",\n        \"companyName\": \"Test Name\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 1,\n        \"isJobPoster\": 1\n    },\n    {\n        \"companyGuid\": \"f240a4f5-890d-4abd-9e40-57ffd0c93564\",\n        \"companyName\": \"wells fargo\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    },\n    {\n        \"companyGuid\": \"b7bae821-9991-484a-969a-883ef72a7879\",\n        \"companyName\": \"united healthcare\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    },\n    {\n        \"companyGuid\": \"800fc2e8-be14-4571-b68b-8cd150132407\",\n        \"companyName\": \"edaptive systems\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    }]",
-                "schemaId": "1568048068575",
-                "typeName": "Company List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -4522,15 +4394,7 @@
         "description": "Creates a company.",
         "request": {
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{   \n\t\"isHiringAgency\": 1,\n\t\"companyName\": \"Allegis Group\",\n\t\"isJobPoster\": 1,\n\t\"logoUrl\": \"92728544-FDFD-493F-A7D3-5547DEA7B9DD/allegisgroup.png\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Company"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -4784,15 +4648,7 @@
           {
             "statusCode": 200,
             "description": "",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": " [{\n        \"companyGuid\": \"b0eb0b98-2a67-4581-abc4-d5d8c1d71060\",\n        \"companyName\": \"Test Group\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    },\n    {\n        \"companyGuid\": \"4cd09e0a-fcec-4a05-a791-d91acb5906da\",\n        \"companyName\": \"Test Name\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 1,\n        \"isJobPoster\": 1\n    },\n    {\n        \"companyGuid\": \"f240a4f5-890d-4abd-9e40-57ffd0c93564\",\n        \"companyName\": \"wells fargo\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    },\n    {\n        \"companyGuid\": \"b7bae821-9991-484a-969a-883ef72a7879\",\n        \"companyName\": \"united healthcare\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    },\n    {\n        \"companyGuid\": \"800fc2e8-be14-4571-b68b-8cd150132407\",\n        \"companyName\": \"edaptive systems\",\n        \"jobPageBoilerplate\": null,\n        \"logoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Company/\",\n        \"isHiringAgency\": 0,\n        \"isJobPoster\": 0\n    }]",
-                "schemaId": "1568048068575",
-                "typeName": "Company List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -4856,15 +4712,7 @@
         "description": "Retrieves a specific company.",
         "request": {
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"isHiringAgency\": true,\n\t\"companyName\": \"Allegis Group\",\n\t\"isJobPoster\": true\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Company"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -4927,15 +4775,7 @@
         "description": "Creates a compensation type.",
         "request": {
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"compensationTypeName\" : \"Monthly\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Compensation Type"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -6974,15 +6814,7 @@
           {
             "statusCode": 200,
             "description": "Returns active jobs that conform to the query parameters.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    {\n        \"title\": \"Modeling and Optimization\",\n        \"duration\": null,\n        \"description\": \"This course will teach students how to create complex simulations and models for their data to include linear, logistic, stepwise, and exponential regression.ObjectivesUse common modeling techniques: Simple linear regression, Non-linear regression, Logistic regression, Step-wise regressionUsing simulation to predict future events and reduce risk\",\n        \"courseLevel\": 0,\n        \"numLessons\": 0,\n        \"vendorName\": \"WozU\",\n        \"numEnrollments\": 0,\n        \"newFlag\": 0,\n        \"vendorGuid\": \"00000000-0000-0000-0000-000000000001\",\n        \"vendorLogoUrl\": null\n    },\n    {\n        \"title\": \"Cryptography and Access Management\",\n        \"duration\": null,\n        \"description\": \"The course will cover the different methodologies and concepts of Cryptography and Access management. Students will be exposed to different cryptography algorithms used to ensure safe transmission and to the storage and use of sensitive data. Students will also learn how to implement various access-management controls and account-management practices.ObjectivesUnderstand basic Cryptography conceptsIdentify common Cryptography algorithmsUnderstand the different States of Data and why it must be protected in all statesUnderstand and be able to implement Public Key InfrastructureBe able to compare and contrast identity and access management conceptsInstall and implement identity and access management controls and services\",\n        \"courseLevel\": 0,\n        \"numLessons\": 0,\n        \"vendorName\": \"WozU\",\n        \"numEnrollments\": 1,\n        \"newFlag\": 0,\n        \"vendorGuid\": \"00000000-0000-0000-0000-000000000001\",\n        \"vendorLogoUrl\": null\n    },\n    {\n        \"title\": \"Data Wrangling and Visualization\",\n        \"duration\": null,\n        \"description\": \"The Data Wrangling and Visualization course is designed to help students understand that the heavy lifting in any analysis happens before the analytical procedure starts. Data wrangling is the process of changing the structure and format of raw data until the data are compatible with sometimes rigid requirements for analysis. Data wrangling also includes a quick sanity check of data quality. Data Visualization will give students an understanding and appreciation of the power in representing data graphically.ObjectivesExtract important data from an existing data setData table manipulations (stacking, splitting, summarizing, and joining) to change table formatScreen data to improve data quality and reduce noiseDecide which data to include and exclude from their analysesExplain required input formats for various analysesUnderstand the impact that metadata has on analysesCreate various methods of visualizing data using common tools: boxplot, histogram, scatterplot, line chart, treemap, heat map, Pareto chart, sparklines, dynamic chartsAttach meaningful statistics and analyses to the appropriate visualization\",\n        \"courseLevel\": 0,\n        \"numLessons\": 0,\n        \"vendorName\": \"WozU\",\n        \"numEnrollments\": 1,\n        \"newFlag\": 0,\n        \"vendorGuid\": \"00000000-0000-0000-0000-000000000001\",\n        \"vendorLogoUrl\": null\n    }\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Course Related Jobs"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
