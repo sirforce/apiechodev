@@ -7425,13 +7425,7 @@
           {
             "statusCode": 200,
             "description": "A list of courses that are related to the specified course.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    {\n        \"courseGuid\": \"52d7719a-e77f-4e1f-ad38-f42b7fe327a0\",\n        \"courseName\": \"Back End Foundations - JavaScript\",\n        \"courseDescription\": \"Description:The Back End Foundations course is an introduction to creating server-side web applications and services. Students will learn how to create server-side APIs and render websites. Language-specific concepts will be covered, outlining the nuances associated with the elective framework.Objectives:Learn the basics of the request/response cycleLearn how to render HTML in response to a requestLearn how to render JSON or XML in response to a requestUnderstand how to build a REST endpointLearn how to interface with a database system from a web application\",\n        \"courseLogoUrl\": \"52D7719A-E77F-4E1F-AD38-F42B7FE327A0/Thumbnail.png\",\n        \"vendorName\": \"WozU\",\n        \"vendorLogoUrl\": \"00000000-0000-0000-0000-000000000001/woz.png\",\n        \"weightedSkillScore\": 1.66667\n    },\n    {\n        \"courseGuid\": \"bfe27ef8-a577-4d5b-a535-9fd4e614f449\",\n        \"courseName\": \"Back End Foundations - C#\",\n        \"courseDescription\": \"Description:The Back End Foundations course is an introduction to creating server-side web applications and services. Students will learn how to create server-side APIs and render websites. Language-specific concepts will be covered, outlining the nuances associated with the elective framework.Objectives:Learn the basics of the request/response cycleLearn how to render HTML in response to a requestLearn how to render JSON or XML in response to a requestUnderstand how to build a REST endpointLearn how to interface with a database system from a web application\",\n        \"courseLogoUrl\": \"BFE27EF8-A577-4D5B-A535-9FD4E614F449/Thumbnail.png\",\n        \"vendorName\": \"WozU\",\n        \"vendorLogoUrl\": \"00000000-0000-0000-0000-000000000001/woz.png\",\n        \"weightedSkillScore\": 1.40000\n    }\n]"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
