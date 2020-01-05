@@ -4924,15 +4924,7 @@
           {
             "statusCode": 200,
             "description": "This is a company.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n\t\"compensationTypeName\" : \"Monthly\"\n}\t",
-                "schemaId": "1568048068575",
-                "typeName": "Compensation Type"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -5289,15 +5281,7 @@
         "request": {
           "description": "The request payload. Note the  contactType property refers to the guid based off the GET request.",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n  \"firstName\":\" Bobby\",\n  \"lastName\" : \"Smith\",\n  \"email\" : \"bsmith@hello.com\",\n  \"contactType\" : \"General\",\n  \"message\" : \"Hi, I am inquering about the possible job oppertunity in Florida. Please reach me at 882-223-2323 \"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Contact Us (Create)"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -5360,15 +5344,7 @@
         "description": "Creates a country.",
         "request": {
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"displayName\" : \"Congo\",\n\t\"officialName\" : \"Congo - Brazzaville\",\n\t\"sequence\" : 53,\n\t\"code2\" : \"CG\",\n\t\"code3\" : \"COG\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Country"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -5517,15 +5493,7 @@
           {
             "statusCode": 200,
             "description": "This is a company.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n\t\"displayName\" : \"Congo\",\n\t\"officialName\" : \"Congo - Brazzaville\",\n\t\"sequence\" : 53,\n\t\"code2\" : \"CG\",\n\t\"code3\" : \"COG\"\n}",
-                "schemaId": "1568048068575",
-                "typeName": "Country"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -5756,15 +5724,7 @@
           {
             "statusCode": 200,
             "description": "The response contains detail pertaining to a course.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "25",
-                "schemaId": "1568048068575",
-                "typeName": "Course - Detail"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -6013,15 +5973,7 @@
           {
             "statusCode": 200,
             "description": "This response contains the name and discount amount for the promo code. ",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n      \"promoCodeGuid\": \"0e261c60-7f3c-4b57-8475-ae5fffa14070\",\n      \"name\": \"Woz Promo\",\n      \"discountAmount\": \"100.00\"\n    }",
-                "schemaId": "1568048068575",
-                "typeName": "Promo Code"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -6078,15 +6030,7 @@
         "request": {
           "description": "The body of the message contains all of the information required to create a course referral - the subscriber that will be associated with the sender comes from the JWT submitted with the request.",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"courseGuid\": \"f20f34ae-e73e-4e8d-aa79-a0969183a0a8\",\n\t\"referralEmail\": \"joesmith@mail.com\",\n\t\"referralName\": \"Joe Smith\",\n\t\"referralDescription\": \"Check out this awesome course!\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Course - Refer A Friend"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -6157,15 +6101,7 @@
         "description": "Creates a enrollment for a course",
         "request": {
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\n   \"nonce\" : \"This comes from a braintree call on the frontend\",\n   \"pricePaid\" : 45.5,\n   \"paymentAmount\" : 45.5,\n   \"firstName\": \"Jim\",\n   \"lastName\" : \"Braazil\",\n   \"phoneNumber\" : \"454545\",\n   \"email\": \"info.x.com\",\n   \"address\": \"5600 main street\",\n   \"region\": \"md\",\n   \"locality\": \"Towson\",\n   \"zipCode\": \"21204\",\n   \"countryCode\": \"us\",\n   \"merchantAccountId\": \"This a front end app setting\",\n   \"stateGuid\": \"8823f7f7-ecc2-4fe3-8461-79fdcb6873cc\",\n   \"countryGuid\": \"8b5dec9a-b5cf-4bdc-b015-ccfd4339d32b\",\n   \"courseGuid\": \"f0221f28-9104-45ec-b453-297afe9f4899\",\n   \"courseVariantGuid\": \"905D0B98-59FA-4857-813F-9136E57B1FE4\",\n   \"subscriberGuid\": \"71a7156e-173f-4054-83ed-ad6127bafe87\"\n}\n\n",
-              "schemaId": "1568048068575",
-              "typeName": "Course - Enroll"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -6314,15 +6250,7 @@
           {
             "statusCode": 200,
             "description": "",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "true",
-                "schemaId": "1568048068575",
-                "typeName": "Job Favorite List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -6932,15 +6860,7 @@
           {
             "statusCode": 200,
             "description": "Returns courses that conform to the query parameters.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "{\n    \"pageSize\": 1000,\n    \"pageNum\": 1,\n    \"courseCount\": 1,\n    \"totalHits\": 1,\n    \"numPages\": 1,\n    \"searchTimeInMilliseconds\": 13965.8048,\n    \"searchQueryTimeInTicks\": 16946662,\n    \"searchMappingTimeInTicks\": 122711386,\n    \"courses\": [\n        {\n            \"title\": \"Front End Frameworks - React\",\n            \"duration\": null,\n            \"description\": \"Description:The Front End Frameworks course is an introduction to JavaScript Front End Frameworks which enable rapid front-end development meeting modern best practices. Students will learn how to create Single Page Web Applications (SPA). Framework-specific concepts will be covered, outlining the nuances associated with the elective framework (React).Objectives:Learn a framework to make front-end code more maintainableCommunicate with back-end REST servicesLearn how to manage state in an applicationLearn how to use components when building an applicationLearn how to use routing to support multiple pages within a SPA\",\n            \"numEnrollments\": 0,\n            \"vendorName\": \"WozU\",\n            \"courseGuid\": \"ec7243f5-3117-447f-a945-92835500f364\",\n            \"vendorLogoUrl\": \"https://careercirclestaging.blob.core.windows.net/assets/Vendor/00000000-0000-0000-0000-000000000001/woz.png\",\n            \"vendorGuid\": \"00000000-0000-0000-0000-000000000001\",\n            \"courseLevelGuid\": null,\n            \"code\": \"FSWG101\",\n            \"level\": \"Advanced\",\n            \"createDate\": \"2018-10-16T13:38:53.561Z\",\n            \"modifyDate\": \"2019-12-09T20:54:50.063Z\",\n            \"isDeleted\": 0,\n            \"tabletImage\": null,\n            \"desktopImage\": \"https://careercirclestaging.blob.core.windows.net/assets/Course/EC7243F5-3117-447F-A945-92835500F364/full-stack.jpg\",\n            \"mobileImage\": null,\n            \"thumbnailImage\": null,\n            \"topic\": \"Dev Full Stack\",\n            \"courseSkills\": \"react.js\\t\\t; html; json; css; restful web services; javascript; react; restful api; reactjs; single page application\"\n        }\n    ]\n}",
-                "schemaId": "1568048068575",
-                "typeName": ""
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -7045,14 +6965,7 @@
           {
             "statusCode": 200,
             "description": "A list of skills.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n\t{\n\t\t\"skillGuid\" : \"83EAD36C-6671-4256-9DD8-14DE593FDA85\",\n\t\t\"skillName\" : \"javascript\"\n\t},\n\t{\n\t\t\"skillGuid\" : \"CC72FD4F-7A61-4E40-8B31-84C0EECB8819\",\n\t\t\"skillName\" : \"kerberos\"\n\t}\n]\t",
-                "schemaId": "1568048068575"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -7133,15 +7046,7 @@
           {
             "statusCode": 200,
             "description": "A collection of course variant.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n  {\n    \"courseVariantGuid\": \"504b1e0b-e3f9-4bc2-b12f-f0d131d00462\",\n    \"name\": \"Instructor Led\",\n    \"price\": 99.99\n  },\n  {\n    \"courseVariantGuid\": \"90bcf453-a903-4947-b31d-159ab64df201\",\n    \"name\": \"Self Paced\",\n    \"price\": 1399\n  }\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Course Variant - List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -7225,13 +7130,7 @@
           {
             "statusCode": 200,
             "description": "A list of courses that are related to the specified course.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    {\n        \"courseGuid\": \"52d7719a-e77f-4e1f-ad38-f42b7fe327a0\",\n        \"courseName\": \"Back End Foundations - JavaScript\",\n        \"courseDescription\": \"Description:The Back End Foundations course is an introduction to creating server-side web applications and services. Students will learn how to create server-side APIs and render websites. Language-specific concepts will be covered, outlining the nuances associated with the elective framework.Objectives:Learn the basics of the request/response cycleLearn how to render HTML in response to a requestLearn how to render JSON or XML in response to a requestUnderstand how to build a REST endpointLearn how to interface with a database system from a web application\",\n        \"courseLogoUrl\": \"52D7719A-E77F-4E1F-AD38-F42B7FE327A0/Thumbnail.png\",\n        \"vendorName\": \"WozU\",\n        \"vendorLogoUrl\": \"00000000-0000-0000-0000-000000000001/woz.png\",\n        \"weightedSkillScore\": 1.66667\n    },\n    {\n        \"courseGuid\": \"bfe27ef8-a577-4d5b-a535-9fd4e614f449\",\n        \"courseName\": \"Back End Foundations - C#\",\n        \"courseDescription\": \"Description:The Back End Foundations course is an introduction to creating server-side web applications and services. Students will learn how to create server-side APIs and render websites. Language-specific concepts will be covered, outlining the nuances associated with the elective framework.Objectives:Learn the basics of the request/response cycleLearn how to render HTML in response to a requestLearn how to render JSON or XML in response to a requestUnderstand how to build a REST endpointLearn how to interface with a database system from a web application\",\n        \"courseLogoUrl\": \"BFE27EF8-A577-4D5B-A535-9FD4E614F449/Thumbnail.png\",\n        \"vendorName\": \"WozU\",\n        \"vendorLogoUrl\": \"00000000-0000-0000-0000-000000000001/woz.png\",\n        \"weightedSkillScore\": 1.40000\n    }\n]"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -7419,15 +7318,7 @@
           {
             "statusCode": 200,
             "description": "A list of courses that are related to the specified job.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n    {\n        \"courseGuid\": \"0f4028dc-ae2d-4b9c-b9af-108b4ed710f0\",\n        \"courseName\": \"Back End Foundations - Java\",\n        \"courseDescription\": \"Description:The Back End Foundations course is an introduction to creating server-side web applications and services. Students will learn how to create server-side APIs and render websites. Language-specific concepts will be covered, outlining the nuances associated with the elective framework.Objectives:Learn the basics of the request/response cycleLearn how to render HTML in response to a requestLearn how to render JSON or XML in response to a requestUnderstand how to build a REST endpointLearn how to interface with a database system from a web application\",\n        \"courseLogoUrl\": \"0F4028DC-AE2D-4B9C-B9AF-108B4ED710F0/Thumbnail.png\",\n        \"vendorName\": \"WozU\",\n        \"vendorLogoUrl\": \"00000000-0000-0000-0000-000000000001/woz.png\",\n        \"weightedSkillScore\": 0.16667\n    },\n    {\n        \"courseGuid\": \"42d621f5-ce18-4917-94f4-3b28c602ce3c\",\n        \"courseName\": \"Programming Foundations Java\",\n        \"courseDescription\": \"Description:The Programming Foundations course is an introduction to basic programming principles as expressed in the elective language. Students will develop a foundational knowledge of programming concepts, algorithms, design patterns, and theory. Language-specific concepts will be covered, outlining the nuances associated with the elective language.Objectives:Learn about common programming conceptsLearn the basics of iteration, decision making, and code organizationLearn the basics of Object-Oriented ProgrammingLearn how to handle errors and recover from failure statesLearn how to debug applications\",\n        \"courseLogoUrl\": \"42D621F5-CE18-4917-94F4-3B28C602CE3C/Thumbnail.png\",\n        \"vendorName\": \"WozU\",\n        \"vendorLogoUrl\": \"00000000-0000-0000-0000-000000000001/woz.png\",\n        \"weightedSkillScore\": 0.16667\n    }\n]   ",
-                "schemaId": "1568048068575",
-                "typeName": "Course - Detail"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -7959,15 +7850,7 @@
           {
             "statusCode": 200,
             "description": "A list of education levels.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "[\n\t{\n\t\t\"educationLevelGuid\" : \"83EAD36C-6671-4256-9DD8-14DE593FDA85\",\n\t\t\"name\" : \"Bachelor's Degree\"\n\t},\n\t{\n\t\t\"educationLevelGuid\" : \"EE4DD2E3-D1F6-4165-BD6B-26D1DB58EB6E\",\n\t\t\"name\" : \"Master’s Degree\"\n\t}\n]",
-                "schemaId": "1568048068575",
-                "typeName": "Education Level List"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -8031,15 +7914,7 @@
         "description": "Retrieves a specific education level.",
         "request": {
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"name\" : \"Master’s Degree\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Education Level"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
@@ -8177,15 +8052,7 @@
           {
             "statusCode": 200,
             "description": "A list of all educational degree types.",
-            "headers": [],
-            "representations": [
-              {
-                "contentType": "application/json",
-                "sample": "\n    {\n        \"educationalDegreeTypeGuid\": \"400f8c90-0b83-4d48-bb27-95a4919269c2\",\n        \"degreeType\": \"Master's Degree\"\n    }",
-                "schemaId": "1568048068575",
-                "typeName": "Educational Degree Types - All"
-              }
-            ]
+            "headers": []
           },
           {
             "statusCode": 400,
@@ -8666,15 +8533,7 @@
         "request": {
           "description": "An employment type.",
           "queryParameters": [],
-          "headers": [],
-          "representations": [
-            {
-              "contentType": "application/json",
-              "sample": "{\n\t\"employmentTypeName\" : \"Part-Time\"\n}",
-              "schemaId": "1568048068575",
-              "typeName": "Employment Type"
-            }
-          ]
+          "headers": []
         },
         "responses": [
           {
